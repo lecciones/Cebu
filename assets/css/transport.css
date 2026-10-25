@@ -1,0 +1,190 @@
+/* ========================================
+   TRANSPORT GUIDE STYLES
+   File: assets/css/transport.css
+======================================== */
+
+.transport-hero {
+    min-height: 400px !important;
+}
+
+.guide-section {
+    padding: 80px 7%;
+    background: var(--paper);
+}
+
+.guide-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+/* ---- Sidebar Table of Contents ---- */
+.guide-sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.toc-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 25px;
+    box-shadow: var(--shadow-sm);
+}
+
+.toc-card h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--blue);
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 10px;
+}
+
+.toc-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc-card li {
+    margin-bottom: 12px;
+}
+
+.toc-card a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    transition: color 0.2s ease;
+}
+
+.toc-card a:hover {
+    color: var(--blue);
+}
+
+/* ---- Main Content Cards ---- */
+.guide-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.guide-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    box-shadow: var(--shadow-md);
+    scroll-margin-top: 100px; /* Offset for sticky header */
+}
+
+.guide-card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--line);
+}
+
+.guide-icon {
+    display: grid;
+    place-items: center;
+    width: 45px;
+    height: 45px;
+    background: #e1f2f8;
+    color: var(--blue);
+    font-size: 24px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.guide-card h2 {
+    font-size: 1.8rem;
+    color: var(--navy);
+    margin: 0;
+}
+
+.lead {
+    font-size: 16px;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* ---- Info Blocks ---- */
+.info-block {
+    margin-bottom: 25px;
+}
+
+.info-block h4 {
+    font-size: 1.1rem;
+    color: var(--navy);
+    margin-bottom: 8px;
+}
+
+.info-block p {
+    font-size: 14px;
+    color: var(--ink);
+    line-height: 1.7;
+}
+
+.info-block strong {
+    color: var(--blue-dark);
+    background: #e1f2f8;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.highlight-box {
+    background: #f7f9fb;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--blue);
+}
+
+/* ---- Tips ---- */
+.guide-tip {
+    background: #fff9e8;
+    border-left: 4px solid var(--gold);
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6c5b2b;
+    line-height: 1.7;
+}
+
+.guide-tip strong {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+/* ---- Back Button ---- */
+.back-btn-wrap {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+    .guide-container {
+        grid-template-columns: 1fr;
+    }
+    .guide-sidebar {
+        display: none; /* Hide TOC on mobile to save space */
+    }
+    .guide-card {
+        padding: 25px;
+    }
+    .guide-card h2 {
+        font-size: 1.5rem;
+    }
+}

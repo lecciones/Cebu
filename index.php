@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -573,6 +572,13 @@
                     </p>
                 </article>
 
+            </div>
+
+            <!-- NEW BUTTON ADDED HERE -->
+            <div class="browse-destinations-wrap" style="margin-top: 40px; text-align: center;">
+                <a class="button button-dark browse-destinations" href="pages/transport.php" style="display: inline-flex; width: auto; padding: 14px 30px;">
+                    Read Full Transport Guide <span aria-hidden="true">↗</span>
+                </a>
             </div>
 
         </section>
