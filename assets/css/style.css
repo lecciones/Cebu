@@ -776,6 +776,43 @@ h2 em {
     background-image: url('../images/magellan.jpg');
 }
 
+/* NEW DESTINATION IMAGES */
+.basilica {
+    background-image: url('../images/basilica.jpg');
+}
+
+.fort {
+    background-image: url('../images/fort.jpg');
+}
+
+.sumilon {
+    background-image: url('../images/sumilon.jpg');
+}
+
+.malapascua {
+    background-image: url('../images/malapascua.jpg');
+}
+
+.osmena {
+    background-image: url('../images/osmena.jpg');
+}
+
+.simala {
+    background-image: url('../images/simala.jpg');
+}
+
+.tumalog {
+    background-image: url('../images/tumalog.jpg');
+}
+
+.gorordo {
+    background-image: url('../images/gorordo.jpg');
+}
+
+.nalusuan {
+    background-image: url('../images/nalusuan.jpg');
+}
+
 .card-tag,
 .image-location {
     position: absolute;
@@ -803,12 +840,10 @@ h2 em {
 }
 
 /* ========================================
-   10.1 ARRIVAL TIME CHIP
+   10.1 TRAVEL TIME CHIP (Replaces arrival-time)
 ======================================== */
 
-.arrival-time,
-.time-chip,
-.card-time {
+.travel-time {
     position: absolute;
     bottom: 13px;
     left: 13px;
@@ -818,14 +853,21 @@ h2 em {
     align-items: center;
     gap: 6px;
 
-    border-radius: 6px;
-    padding: 5px 8px;
+    border-radius: 100px; /* Makes it a pill shape */
+    padding: 6px 14px;
     
-    background: #ffffffeb; 
-    color: #36677b;
-    font-size: 10px;
+    /* Dark teal background matching your image */
+    background: #0b3c4c; 
+    color: #ffffff;
+    font-size: 11px;
     font-weight: 700;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Ensure the emoji looks good */
+.travel-time span {
+    font-size: 12px;
 }
 
 .card-content {
@@ -892,6 +934,30 @@ h2 em {
 
 a.map-trigger {
     text-decoration: none;
+}
+
+/* ========================================
+   10.2 LINKABLE DESTINATION CARDS
+======================================== */
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.card-content h3 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.card-content h3 a:hover {
+    color: var(--blue);
+}
+
+.card-link:hover .card-image {
+    opacity: 0.9;
 }
 
 .no-results {
@@ -1123,6 +1189,19 @@ a.map-trigger {
     background-image: url('../images/mercado.jpg');
 }
 
+/* NEW FOOD IMAGES */
+.puso {
+    background-image: url('../images/puso.jpg');
+}
+
+.ngohiong {
+    background-image: url('../images/ngohiong.jpg');
+}
+
+.bibingka {
+    background-image: url('../images/bibingka.jpg');
+}
+
 .food-content {
     padding: 19px;
 }
@@ -1133,6 +1212,30 @@ a.map-trigger {
 
 .food-content p {
     min-height: 0;
+}
+
+/* ========================================
+   13.1 LINKABLE FOOD CARDS
+======================================== */
+
+.food-card .card-link {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.food-content h3 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.food-content h3 a:hover {
+    color: var(--blue);
+}
+
+.food-card:hover .food-image {
+    opacity: 0.9;
 }
 
 /* ========================================
@@ -1183,6 +1286,21 @@ a.map-trigger {
     color: var(--muted);
     font-size: 11px;
     line-height: 1.8;
+}
+
+/* ========================================
+   14.1 LINKABLE TRANSPORT CARDS
+======================================== */
+
+a.transport-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.transport-card:hover h3 {
+    color: var(--blue);
 }
 
 /* ========================================
@@ -1824,4 +1942,70 @@ a.map-trigger {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+/* ========================================
+   23. CUSTOM MAP DESIGN (CEBU ISLAND)
+======================================== */
+
+/* The shape of Cebu Island */
+.cebu-island-shape {
+    fill: #FDF1D9; /* Light orange/cream fill */
+    stroke: #F08B46; /* Orange border */
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+}
+
+/* Custom Destination Markers */
+.custom-map-marker {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #ffffff;
+    border: 1.5px solid #F08B46;
+    border-radius: 50px;
+    padding: 3px 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #173345;
+    transform: translateY(-50%); /* Centers the pin vertically */
+    pointer-events: auto;
+}
+
+.custom-map-marker::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #F08B46;
+    border-radius: 50%;
+}
+
+/* Specific Dark Badges (like Cebu City & Airport) */
+.custom-map-marker.dark-badge {
+    background: #0b3c4c;
+    border-color: #0b3c4c;
+    color: #ffffff;
+}
+
+.custom-map-marker.dark-badge::before {
+    background: #ffffff;
+}
+
+/* Hide the default Leaflet tooltip arrow */
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before,
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before {
+    display: none;
+}
+
+/* Dashed Ferry Lines */
+.ferry-route {
+    stroke-dasharray: 4, 6;
+    stroke-linecap: round;
 }

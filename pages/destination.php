@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Discover Cebu attractions, local food, transport tips and travel routes.">
-    <title>Destinations | Smart Tourist Navigator</title>
+    <title>Destinations & Routes | Smart Tourist Navigator</title>
 
     <!-- Main Stylesheet (Up one level) -->
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -65,7 +65,7 @@
                     <em>and how to get there.</em>
                 </h1>
                 <p>
-                    Honest, practical guides to the best of Cebu, with real distances and drive times from Cebu City and Mactan airport. When you're ready, we'll quote a fixed-price private transfer - no invented fares, just a clear all-in price.
+                    Honest, practical guides to the best of Cebu, with real distances and drive times from Cebu City and Mactan airport. Select a route below to trace it on the map.
                 </p>
                 <div class="hero-actions">
                     <a href="#routes" class="button button-gold">View Routes ↓</a>
@@ -112,6 +112,7 @@
                 <!-- RIGHT: ROUTE PILLS -->
                 <div class="routes-panel">
                     
+                    <!-- FROM CEBU CITY -->
                     <div class="routes-group">
                         <span class="route-group-title">From Cebu City</span>
                         <div class="pills-container">
@@ -121,12 +122,20 @@
                             <div class="pill" data-route="cebu-bantayan">Cebu City → Bantayan Island</div>
                             <div class="pill" data-route="cebu-malapascua">Cebu City → Malapascua Island</div>
                             <div class="pill" data-route="cebu-camotes">Cebu City → Camotes Islands</div>
+                            <div class="pill" data-route="cebu-bohol">Cebu City → Bohol</div>
+                            <div class="pill" data-route="cebu-dumaguete">Cebu City → Dumaguete</div>
+                            <div class="pill" data-route="cebu-siquijor">Cebu City → Siquijor</div>
+                            <div class="pill" data-route="cebu-balamban">Cebu City → Balamban</div>
                             <div class="pill" data-route="cebu-carcar">Cebu City → Carcar City</div>
                             <div class="pill" data-route="cebu-simala">Cebu City → Simala Shrine</div>
                             <div class="pill" data-route="cebu-osmena">Cebu City → Osmeña Peak</div>
+                            <div class="pill" data-route="cebu-pier">Cebu City Pier → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="cebu-mactan">Cebu City → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="cebu-highlands">Cebu City → Cebu Highlands</div>
                         </div>
                     </div>
 
+                    <!-- FROM MACTAN AIRPORT -->
                     <div class="routes-group">
                         <span class="route-group-title">From Mactan Airport</span>
                         <div class="pills-container">
@@ -136,20 +145,96 @@
                             <div class="pill" data-route="mactan-bantayan">Mactan Airport → Bantayan Island</div>
                             <div class="pill" data-route="mactan-malapascua">Mactan Airport → Malapascua Island</div>
                             <div class="pill" data-route="mactan-camotes">Mactan Airport → Camotes Islands</div>
+                            <div class="pill" data-route="mactan-bohol">Mactan Airport → Bohol</div>
+                            <div class="pill" data-route="mactan-dumaguete">Mactan Airport → Dumaguete</div>
+                            <div class="pill" data-route="mactan-siquijor">Mactan Airport → Siquijor</div>
+                            <div class="pill" data-route="mactan-balamban">Mactan Airport → Balamban</div>
                             <div class="pill" data-route="mactan-cebu">Mactan Airport → Cebu City</div>
+                            <div class="pill" data-route="mactan-highlands">Mactan Airport → Cebu Highlands</div>
+                            <div class="pill" data-route="mactan-osmena">Mactan Airport → Osmeña Peak</div>
+                            <div class="pill" data-route="mactan-pier">Mactan Airport → Cebu City Pier</div>
                         </div>
                     </div>
 
+                    <!-- SOUTH CEBU ROUTES -->
                     <div class="routes-group">
-                        <span class="route-group-title">Island & Coastal Connections</span>
+                        <span class="route-group-title">South Cebu & Coastal</span>
                         <div class="pills-container">
                             <div class="pill" data-route="oslob-moalboal">Oslob → Moalboal</div>
                             <div class="pill" data-route="moalboal-oslob">Moalboal → Oslob</div>
-                            <div class="pill" data-route="simala-oslob">Simala Shrine → Oslob</div>
                             <div class="pill" data-route="carcar-simala">Carcar City → Simala Shrine</div>
+                            <div class="pill" data-route="simala-oslob">Simala Shrine → Oslob</div>
+                            <div class="pill" data-route="simala-carcar">Simala Shrine → Carcar City</div>
+                            <div class="pill" data-route="simala-cebu">Simala Shrine → Cebu City</div>
+                            <div class="pill" data-route="simala-mactan">Simala Shrine → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="carcar-cebu">Carcar City → Cebu City</div>
+                            <div class="pill" data-route="carcar-mactan">Carcar City → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="carcar-oslob">Carcar City → Oslob</div>
+                            <div class="pill" data-route="oslob-carcar">Oslob → Carcar City</div>
+                            <div class="pill" data-route="oslob-dumaguete">Oslob → Dumaguete</div>
+                            <div class="pill" data-route="dumaguete-oslob">Dumaguete → Oslob</div>
+                            <div class="pill" data-route="oslob-simala">Oslob → Simala Shrine</div>
+                            <div class="pill" data-route="oslob-cebu">Oslob → Cebu City</div>
+                            <div class="pill" data-route="oslob-mactan">Oslob → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="moalboal-cebu">Moalboal → Cebu City</div>
+                            <div class="pill" data-route="moalboal-mactan">Moalboal → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="moalboal-liloan">Moalboal → Liloan Port</div>
                             <div class="pill" data-route="liloan-moalboal">Liloan Port → Moalboal</div>
+                            <div class="pill" data-route="moalboal-hagnaya">Moalboal → Hagnaya Port</div>
+                            <div class="pill" data-route="hagnaya-moalboal">Hagnaya Port → Moalboal</div>
+                            <div class="pill" data-route="moalboal-maya">Moalboal → Maya Port</div>
+                            <div class="pill" data-route="maya-moalboal">Maya Port → Moalboal</div>
+                        </div>
+                    </div>
+
+                    <!-- NORTH & ISLAND CONNECTIONS -->
+                    <div class="routes-group">
+                        <span class="route-group-title">North Cebu & Islands</span>
+                        <div class="pills-container">
                             <div class="pill" data-route="bantayan-cebu">Bantayan Island → Cebu City</div>
-                            <div class="pill" data-route="malapascua-cebu">Malapascua → Cebu City</div>
+                            <div class="pill" data-route="bantayan-mactan">Bantayan Island → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="malapascua-cebu">Malapascua Island → Cebu City</div>
+                            <div class="pill" data-route="malapascua-mactan">Malapascua Island → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="malapascua-moalboal">Malapascua Island → Moalboal</div>
+                            <div class="pill" data-route="moalboal-malapascua">Moalboal → Malapascua Island</div>
+                            <div class="pill" data-route="malapascua-bohol">Malapascua Island → Bohol</div>
+                            <div class="pill" data-route="bohol-malapascua">Bohol → Malapascua Island</div>
+                            <div class="pill" data-route="camotes-cebu">Camotes Islands → Cebu City</div>
+                            <div class="pill" data-route="camotes-mactan">Camotes Islands → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="bohol-moalboal">Bohol → Moalboal</div>
+                            <div class="pill" data-route="moalboal-bohol">Moalboal → Bohol</div>
+                            <div class="pill" data-route="bohol-cebu">Bohol → Cebu City</div>
+                            <div class="pill" data-route="bohol-mactan">Bohol → Mactan-Cebu Airport</div>
+                        </div>
+                    </div>
+
+                    <!-- FERRIES & PORTS -->
+                    <div class="routes-group">
+                        <span class="route-group-title">Ferries & Port Transfers</span>
+                        <div class="pills-container">
+                            <div class="pill" data-route="mactan-resorts">Mactan Resorts → Cebu City</div>
+                            <div class="pill" data-route="cebu-resorts">Cebu City → Mactan Resorts</div>
+                            <div class="pill" data-route="resorts-moalboal">Mactan Resorts → Moalboal</div>
+                            <div class="pill" data-route="resorts-oslob">Mactan Resorts → Oslob</div>
+                            <div class="pill" data-route="resorts-kawasan">Mactan Resorts → Kawasan Falls</div>
+                            <div class="pill" data-route="kawasan-resorts">Kawasan Falls → Mactan Resorts</div>
+                            <div class="pill" data-route="mactan-maya">Mactan-Cebu Airport → Maya Port</div>
+                            <div class="pill" data-route="maya-cebu">Maya Port → Cebu City</div>
+                            <div class="pill" data-route="maya-mactan">Maya Port → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="cebu-maya">Cebu City → Maya Port</div>
+                            <div class="pill" data-route="pier-moalboal">Cebu City Pier → Moalboal</div>
+                            <div class="pill" data-route="moalboal-pier">Moalboal → Cebu City Pier</div>
+                            <div class="pill" data-route="mactan-lapu">Mactan / Lapu-Lapu → Cebu City Pier</div>
+                            <div class="pill" data-route="pier-mactan-lapu">Cebu City Pier → Mactan / Lapu-Lapu</div>
+                            <div class="pill" data-route="osmena-cebu">Osmeña Peak → Cebu City</div>
+                            <div class="pill" data-route="osmena-mactan">Osmeña Peak → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="sumilon-cebu">Sumilon Island → Cebu City</div>
+                            <div class="pill" data-route="sumilon-mactan">Sumilon Island → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="sumilon-oslob">Sumilon Island → Oslob</div>
+                            <div class="pill" data-route="mactan-sumilon">Mactan-Cebu Airport → Sumilon Island</div>
+                            <div class="pill" data-route="cebu-sumilon">Cebu City → Sumilon Island</div>
+                            <div class="pill" data-route="balamban-mactan">Balamban → Mactan-Cebu Airport</div>
+                            <div class="pill" data-route="balamban-cebu">Balamban → Cebu City</div>
                         </div>
                     </div>
                     

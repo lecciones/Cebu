@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Comprehensive guide to public transportation in Metro Cebu and across the province.">
+    <meta name="description" content="A highly visual, practical guide to navigating Cebu's jeepneys, taxis, buses, and ferries.">
     <title>Transport Guide | Smart Tourist Navigator</title>
 
     <!-- Fonts & Main Stylesheet -->
@@ -45,7 +45,7 @@
         <div class="hero-content">
             <span class="eyebrow hero-eyebrow">GETTING AROUND</span>
             <h1>The Ultimate Cebu<br><em>Transport Guide.</em></h1>
-            <p>Clear, candid, and highly practical advice for navigating Metro Cebu and the province.</p>
+            <p>Master the jeepneys, beat the traffic, and reach the islands. A highly visual guide for navigating Cebu in 2026.</p>
         </div>
         <div class="hero-caption">
             <span>03 / TRANSPORT & NAVIGATION</span>
@@ -57,130 +57,195 @@
         </div>
     </section>
 
-    <!-- GUIDE CONTENT -->
-    <section class="guide-section">
-        <div class="guide-container">
-            
-            <!-- SIDEBAR TOC -->
-            <aside class="guide-sidebar">
-                <div class="toc-card">
-                    <h3>Jump to Section</h3>
-                    <ul>
-                        <li><a href="#jeepney">1. The Jeepney System</a></li>
-                        <li><a href="#taxis">2. Ride-Hailing & Taxis</a></li>
-                        <li><a href="#buses">3. City & Airport Buses</a></li>
-                        <li><a href="#provincial">4. Provincial Travel</a></li>
-                    </ul>
+    <!-- VISUAL GUIDE CONTENT -->
+    <section class="visual-guide-section">
+        <div class="guide-wrapper">
+
+            <!-- SECTION 1: JEEPNEYS -->
+            <div class="transport-module">
+                <div class="module-header">
+                    <span class="module-icon">🚐</span>
+                    <div>
+                        <span class="module-tag">LOCAL STAPLE</span>
+                        <h2>The Jeepney System</h2>
+                    </div>
                 </div>
-            </aside>
-
-            <!-- MAIN CONTENT -->
-            <div class="guide-content">
-
-                <!-- 1. JEEPNEYS -->
-                <article class="guide-card" id="jeepney">
-                    <div class="guide-card-header">
-                        <span class="guide-icon">▤</span>
-                        <h2>1. The Jeepney System</h2>
-                    </div>
-                    <p class="lead">Cebu's jeepneys are the backbone of local transport, but they run on a route code system rather than a formal map. You need to know the code for your destination before you board.</p>
-                    
-                    <div class="info-block">
-                        <h4>The Alphanumeric Code System</h4>
-                        <p>Codes like <strong>04C</strong>, <strong>17B</strong>, or <strong>13C</strong> are not random. The number generally indicates the primary corridor (e.g., 04 routes serve Lahug/Carbon; 13 serves Talamban). The letter denotes a specific variation (e.g., 13B goes to Carbon, 13C goes to Colon). <em>Google Maps does not track jeepney routes—ask a local!</em></p>
+                
+                <div class="module-grid">
+                    <!-- How to Read Codes -->
+                    <div class="info-card">
+                        <h3>📍 Reading the Codes</h3>
+                        <p>Jeepneys don't have maps. They use alphanumeric codes. The number is the main route, the letter is the variation.</p>
+                        <div class="code-examples">
+                            <span class="code-pill">04L <small>Lahug ↔ Ayala</small></span>
+                            <span class="code-pill">17B <small>IT Park ↔ Carbon</small></span>
+                            <span class="code-pill">13C <small>Talamban ↔ Colon</small></span>
+                        </div>
+                        <p class="micro-note">Pro tip: Google Maps doesn't track these. Ask a local at the terminal!</p>
                     </div>
 
-                    <div class="info-block">
-                        <h4>Fares & Payment</h4>
-                        <p>Minimum fare is <strong>₱13</strong> (traditional) or <strong>₱15–17</strong> (modern aircon). Hand your cash to the passenger next to you and say <strong>"Bayad palihug"</strong> (Payment, please). Your change is passed back the same way. <em>Always carry small bills and coins.</em></p>
+                    <!-- How to Pay -->
+                    <div class="info-card">
+                        <h3>💵 How to Pay</h3>
+                        <p><strong>Fare (2026):</strong> ₱14 (Traditional) / ₱17 (Modern Aircon).</p>
+                        <ol class="step-list">
+                            <li>Hand your cash to the passenger next to you.</li>
+                            <li>Say: <strong>"Bayad palihug"</strong> (Payment, please).</li>
+                            <li>Your change is passed back hand-to-hand.</li>
+                        </ol>
+                        <p class="micro-note">⚠️ Always carry small bills. Drivers rarely have change for ₱500.</p>
                     </div>
 
-                    <div class="info-block highlight-box">
-                        <h4>How to Get Off</h4>
-                        <p>There are no formal stops. Say <strong>"Para po!"</strong> or <strong>"Lugar lang"</strong> (Just here) loud enough for the driver to hear a few seconds before your stop. If unsure, tell the driver your destination when you board.</p>
+                    <!-- How to Exit -->
+                    <div class="info-card">
+                        <h3>🚪 How to Get Off</h3>
+                        <p>There are no bus stops. You must signal the driver.</p>
+                        <div class="phrase-box">
+                            <span>Say: "Para po!" or "Lugar lang"</span>
+                        </div>
+                        <p>Say it loud enough for the driver to hear a few seconds before your stop.</p>
                     </div>
-                </article>
-
-                <!-- 2. TAXIS -->
-                <article class="guide-card" id="taxis">
-                    <div class="guide-card-header">
-                        <span class="guide-icon">↗</span>
-                        <h2>2. Digital Ride-Hailing & Taxis</h2>
-                    </div>
-                    <p class="lead">For point-to-point trips, especially with luggage or at night, app-based options are the most reliable.</p>
-
-                    <div class="info-block">
-                        <h4>Ride-Sharing Apps</h4>
-                        <p><strong>Grab</strong> is the dominant app, offering fixed pricing. <strong>InDrive</strong> lets you name your fare (cheaper, but less consistent).</p>
-                    </div>
-
-                    <div class="info-block">
-                        <h4>Motorcycle Taxis</h4>
-                        <p><strong>Angkas</strong> is the largest fleet and best for first-timers. <strong>Move It</strong> (backed by Grab) is a good backup. All provide helmets. <em>No large luggage allowed.</em></p>
-                    </div>
-
-                    <div class="info-block">
-                        <h4>Metered White Taxis</h4>
-                        <p>Flag-down rate is <strong>₱40</strong> + <strong>₱13.50/km</strong>. Airport to City (14km) is roughly <strong>₱250–400</strong>.</p>
-                    </div>
-
-                    <div class="guide-tip">
-                        <strong>The Golden Rule</strong>
-                        Insist that the driver uses the meter. If a driver quotes a flat fare, walk to the next taxi in the queue—flat rates are almost always higher. Yellow "airport taxis" have a higher flag-down rate (₱70).
-                    </div>
-                </article>
-
-                <!-- 3. BUSES -->
-                <article class="guide-card" id="buses">
-                    <div class="guide-card-header">
-                        <span class="guide-icon">≈</span>
-                        <h2>3. Large City & Airport Buses</h2>
-                    </div>
-                    <p class="lead">Cebu has a growing network of fixed-route, air-conditioned buses that are ideal for getting between major malls and the airport.</p>
-
-                    <div class="info-block">
-                        <h4>MyBus (Airport to City)</h4>
-                        <p>Connects Mactan Airport to <strong>SM City Cebu</strong> and <strong>SM Seaside City</strong>. Buses run every 20 minutes. The best budget option if your hotel is near these malls.</p>
-                    </div>
-
-                    <div class="info-block">
-                        <h4>CIBUS (City Loops)</h4>
-                        <p>A modern bus service looping through <strong>Ayala Center</strong>, <strong>IT Park</strong>, <strong>Fuente Osmeña</strong>, and <strong>SM Seaside</strong>. Fares are low (₱15–26) and air-conditioned.</p>
-                    </div>
-                </article>
-
-                <!-- 4. PROVINCIAL TRAVEL -->
-                <article class="guide-card" id="provincial">
-                    <div class="guide-card-header">
-                        <span class="guide-icon">⌁</span>
-                        <h2>4. Provincial Travel</h2>
-                    </div>
-                    <p class="lead">For trips outside Metro Cebu, you must go to one of two major bus terminals. Do not try to catch these buses from the roadside—they will be full.</p>
-
-                    <div class="info-block">
-                        <h4>Cebu North Bus Terminal</h4>
-                        <p>Located near SM City Cebu (verify locally). Use this for <strong>Bantayan Island</strong> (bus to Hagnaya Port, then ferry) and <strong>Malapascua</strong> (bus to Maya Port, then boat).</p>
-                    </div>
-
-                    <div class="info-block">
-                        <h4>Cebu South Bus Terminal</h4>
-                        <p>For southern destinations like <strong>Moalboal</strong> and <strong>Oslob</strong>. Take a Ceres bus bound for the specific town. Air-conditioned buses are worth the small extra cost (₱20–40 more) as they make fewer stops.</p>
-                    </div>
-
-                    <div class="guide-tip">
-                        <strong>Critical Timing Tips</strong>
-                        For Bantayan: Leave Cebu by early afternoon, or you'll miss the last ferry.<br><br>
-                        For Malapascua: Leave by mid-morning to have a buffer before the last boats depart (around 4:30–5:30 PM).
-                    </div>
-                </article>
-
-                <!-- BACK BUTTON -->
-                <div class="back-btn-wrap">
-                    <a class="button button-dark" href="../index.php#transport">
-                        ← Back to Homepage
-                    </a>
                 </div>
             </div>
+
+            <!-- SECTION 2: APPS & TAXIS -->
+            <div class="transport-module">
+                <div class="module-header">
+                    <span class="module-icon">📱</span>
+                    <div>
+                        <span class="module-tag">BEAT THE TRAFFIC</span>
+                        <h2>Ride-Hailing & Taxis</h2>
+                    </div>
+                </div>
+                
+                <div class="module-grid">
+                    <!-- Car Apps -->
+                    <div class="info-card">
+                        <h3>🚗 Car Apps</h3>
+                        <p><strong>Grab:</strong> The most reliable. Fixed pricing, no haggling.</p>
+                        <p><strong>InDrive:</strong> You name your fare. Can be cheaper, but less consistent.</p>
+                    </div>
+
+                    <!-- Motorcycles -->
+                    <div class="info-card">
+                        <h3>🏍️ Motorcycle Taxis</h3>
+                        <p>Fastest way to beat traffic. All provide helmets.</p>
+                        <ul class="app-list">
+                            <li><strong>Angkas:</strong> Largest fleet, best for first-timers.</li>
+                            <li><strong>Move It:</strong> Backed by Grab, good backup.</li>
+                        </ul>
+                        <p class="micro-note">⚠️ No large luggage allowed on motorcycles.</p>
+                    </div>
+
+                    <!-- Metered Taxis -->
+                    <div class="info-card highlight-card">
+                        <h3>🚕 White Taxis</h3>
+                        <p><strong>Flag-down:</strong> ₱40 + ₱13.50/km.</p>
+                        <p><strong>Airport to City:</strong> ~₱250–400 (14km).</p>
+                        <div class="alert-box">
+                            <strong>The Golden Rule:</strong> Insist on the meter. If they quote a flat rate, walk to the next taxi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: BUSES -->
+            <div class="transport-module">
+                <div class="module-header">
+                    <span class="module-icon">🚌</span>
+                    <div>
+                        <span class="module-tag">FIXED ROUTES</span>
+                        <h2>City & Airport Buses</h2>
+                    </div>
+                </div>
+                
+                <div class="module-grid">
+                    <div class="info-card">
+                        <h3>✈️ MyBus (Airport)</h3>
+                        <p>Connects Mactan Airport to <strong>SM City Cebu</strong> and Talisay.</p>
+                        <p><strong>Schedule:</strong> Every 20 mins (7 AM – 10 PM).</p>
+                        <p><strong>Fare:</strong> ~₱60.</p>
+                        <p class="micro-note">Best budget option if your hotel is near the route.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🏙️ CIBUS (City Loops)</h3>
+                        <p>Modern aircon buses looping through <strong>Ayala</strong>, <strong>IT Park</strong>, <strong>Fuente</strong>, and <strong>SM Seaside</strong>.</p>
+                        <p><strong>Fare:</strong> ₱15–26.</p>
+                        <p>Great for navigating between business districts without jeepney transfers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 4: PROVINCIAL TRAVEL -->
+            <div class="transport-module">
+                <div class="module-header">
+                    <span class="module-icon">🏝️</span>
+                    <div>
+                        <span class="module-tag">OUT OF TOWN</span>
+                        <h2>Provincial Travel</h2>
+                    </div>
+                </div>
+                
+                <div class="module-grid">
+                    <!-- North Terminal -->
+                    <div class="info-card">
+                        <h3>⬆️ North Bus Terminal</h3>
+                        <p><em>Located near SM City Cebu.</em></p>
+                        <div class="route-fare-table">
+                            <div><strong>To Bantayan Island:</strong> Bus to Hagnaya (₱300) + Ferry to Santa Fe.</div>
+                            <div><strong>To Malapascua:</strong> Bus to Maya Port (₱370) + Boat to island.</div>
+                        </div>
+                        <div class="alert-box warning">
+                            <strong>Timing:</strong> Leave by early afternoon or you'll miss the last ferry!
+                        </div>
+                    </div>
+
+                    <!-- South Terminal -->
+                    <div class="info-card">
+                        <h3>⬇️ South Bus Terminal</h3>
+                        <p><em>For Oslob, Moalboal, Simala.</em></p>
+                        <div class="route-fare-table">
+                            <div><strong>Carcar City:</strong> ₱110 (Aircon)</div>
+                            <div><strong>Simala Shrine:</strong> ₱150 (Aircon)</div>
+                            <div><strong>Moalboal:</strong> ₱240 (Aircon)</div>
+                            <div><strong>Oslob (Bato):</strong> ₱380 (Aircon)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 5: NEW INITIATIVES -->
+            <div class="transport-module new-module">
+                <div class="module-header">
+                    <span class="module-icon">✨</span>
+                    <div>
+                        <span class="module-tag">NEW FOR 2026</span>
+                        <h2>Tabang Pambyahe & BRT</h2>
+                    </div>
+                </div>
+                
+                <div class="module-grid">
+                    <div class="info-card">
+                        <h3>🚌 Tabang Pambyahe</h3>
+                        <p>A new subsidized bus service with strict standards: GPS, aircon, and <strong>no standing passengers</strong>.</p>
+                        <p><strong>Routes:</strong> IT Park to Danao, and South Terminal to Simala.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🚏 Cebu BRT Status</h3>
+                        <p>A 2.38km segment from <strong>South Terminal to Capitol</strong> is nearly complete. If active, it offers a traffic-free lane through the city center.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BACK BUTTON -->
+            <div class="back-btn-wrap">
+                <a class="button button-dark" href="../index.php#transport">
+                    ← Back to Homepage
+                </a>
+            </div>
+
         </div>
     </section>
 

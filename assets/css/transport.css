@@ -1,5 +1,5 @@
 /* ========================================
-   TRANSPORT GUIDE STYLES
+   VISUAL TRANSPORT GUIDE STYLES
    File: assets/css/transport.css
 ======================================== */
 
@@ -7,184 +7,250 @@
     min-height: 400px !important;
 }
 
-.guide-section {
-    padding: 80px 7%;
+.visual-guide-section {
+    padding: 80px 5%;
     background: var(--paper);
 }
 
-.guide-container {
-    max-width: 1100px;
+.guide-wrapper {
+    max-width: 1000px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 260px 1fr;
-    gap: 40px;
-    align-items: start;
-}
-
-/* ---- Sidebar Table of Contents ---- */
-.guide-sidebar {
-    position: sticky;
-    top: 100px;
-}
-
-.toc-card {
-    background: var(--white);
-    border: 1px solid var(--line);
-    border-radius: var(--radius-md);
-    padding: 25px;
-    box-shadow: var(--shadow-sm);
-}
-
-.toc-card h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--blue);
-    margin-bottom: 15px;
-    border-bottom: 1px solid var(--line);
-    padding-bottom: 10px;
-}
-
-.toc-card ul {
-    list-style: none;
-    padding: 0;
-}
-
-.toc-card li {
-    margin-bottom: 12px;
-}
-
-.toc-card a {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--muted);
-    transition: color 0.2s ease;
-}
-
-.toc-card a:hover {
-    color: var(--blue);
-}
-
-/* ---- Main Content Cards ---- */
-.guide-content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 }
 
-.guide-card {
+/* ---- Modules ---- */
+.transport-module {
     background: var(--white);
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
     padding: 40px;
     box-shadow: var(--shadow-md);
-    scroll-margin-top: 100px; /* Offset for sticky header */
 }
 
-.guide-card-header {
+.new-module {
+    border: 2px solid var(--gold);
+    background: #fffdf5;
+}
+
+.module-header {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 2px solid var(--line);
 }
 
-.guide-icon {
+.module-icon {
+    font-size: 32px;
+    background: #e1f2f8;
+    width: 60px;
+    height: 60px;
     display: grid;
     place-items: center;
-    width: 45px;
-    height: 45px;
-    background: #e1f2f8;
-    color: var(--blue);
-    font-size: 24px;
-    border-radius: 12px;
-    flex-shrink: 0;
+    border-radius: 16px;
 }
 
-.guide-card h2 {
+.module-tag {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--blue);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.module-header h2 {
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.8rem;
     color: var(--navy);
     margin: 0;
+    line-height: 1.1;
 }
 
-.lead {
-    font-size: 16px;
-    color: var(--muted);
-    line-height: 1.8;
-    margin-bottom: 30px;
+/* ---- Grid ---- */
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
-/* ---- Info Blocks ---- */
-.info-block {
-    margin-bottom: 25px;
+/* ---- Info Cards ---- */
+.info-card {
+    background: #f7f9fb;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 25px;
 }
 
-.info-block h4 {
+.info-card h3 {
     font-size: 1.1rem;
     color: var(--navy);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.info-card strong {
+    color: var(--blue-dark);
+}
+
+/* Highlight card for Taxis */
+.highlight-card {
+    background: #fff9e8;
+    border-color: #f4c95d70;
+}
+
+/* ---- Code Pills ---- */
+.code-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.code-pill {
+    background: var(--navy);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code-pill small {
+    font-size: 9px;
+    font-weight: 400;
+    color: #b0c4d0;
+    margin-top: 2px;
+}
+
+/* ---- Step List ---- */
+.step-list {
+    padding-left: 20px;
+    margin: 15px 0;
+    font-size: 13px;
+    color: var(--ink);
+}
+
+.step-list li {
     margin-bottom: 8px;
 }
 
-.info-block p {
-    font-size: 14px;
-    color: var(--ink);
-    line-height: 1.7;
-}
-
-.info-block strong {
-    color: var(--blue-dark);
-    background: #e1f2f8;
-    padding: 2px 6px;
-    border-radius: 4px;
-}
-
-.highlight-box {
-    background: #f7f9fb;
-    padding: 20px;
+/* ---- Phrase Box ---- */
+.phrase-box {
+    background: var(--blue);
+    color: white;
+    padding: 12px;
     border-radius: 8px;
-    border-left: 4px solid var(--blue);
-}
-
-/* ---- Tips ---- */
-.guide-tip {
-    background: #fff9e8;
-    border-left: 4px solid var(--gold);
-    padding: 20px;
-    border-radius: 0 8px 8px 0;
-    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
     font-size: 14px;
-    color: #6c5b2b;
-    line-height: 1.7;
+    margin: 15px 0;
 }
 
-.guide-tip strong {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--navy);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+/* ---- App List ---- */
+.app-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.app-list li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.app-list li::before {
+    content: "•";
+    color: var(--blue);
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+/* ---- Alert Boxes ---- */
+.alert-box {
+    background: #e1f2f8;
+    border-left: 4px solid var(--blue);
+    padding: 12px 15px;
+    border-radius: 0 6px 6px 0;
+    font-size: 12px;
+    color: var(--blue-dark);
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.alert-box.warning {
+    background: #fdf2e9;
+    border-left-color: #e67e22;
+    color: #a04000;
+}
+
+/* ---- Route Fare Table ---- */
+.route-fare-table {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--muted);
+    margin: 15px 0;
+}
+
+.route-fare-table div {
+    border-bottom: 1px dashed var(--line);
+    padding-bottom: 8px;
+}
+
+.route-fare-table div:last-child {
+    border-bottom: none;
+}
+
+/* ---- Notes ---- */
+.micro-note {
     font-size: 11px;
+    color: #a0aec0;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 /* ---- Back Button ---- */
 .back-btn-wrap {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* ---- Responsive ---- */
-@media (max-width: 900px) {
-    .guide-container {
-        grid-template-columns: 1fr;
+@media (max-width: 800px) {
+    .visual-guide-section {
+        padding: 50px 5%;
     }
-    .guide-sidebar {
-        display: none; /* Hide TOC on mobile to save space */
+    .transport-module {
+        padding: 25px 20px;
     }
-    .guide-card {
-        padding: 25px;
-    }
-    .guide-card h2 {
+    .module-header h2 {
         font-size: 1.5rem;
+    }
+    .module-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
     }
 }

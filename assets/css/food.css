@@ -1,0 +1,362 @@
+/* ========================================
+   CEBU LOCAL FOOD PAGE STYLES (EDITORIAL)
+   File: assets/css/food.css
+======================================== */
+
+/* ---- Quick Stats Bar ---- */
+.quick-stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    padding: 40px 7%;
+    background: #ffffff;
+    border-bottom: 1px solid var(--line);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--gold);
+    padding-left: 18px;
+}
+
+.stat-label {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.stat-value {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--navy);
+}
+
+/* ---- Two Column Layout ---- */
+.destination-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 7%;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .destination-layout {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 40px 5%;
+    }
+}
+
+/* ---- Section Titles & Subtitle ---- */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 12px;
+    line-height: 1.15;
+}
+
+.section-subtitle {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 45px;
+    max-width: 750px;
+}
+
+/* ---- Food Grid ---- */
+.food-grid-container {
+    padding: 0;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* ---- Food Cards (Premium Design) ---- */
+.food-card-item {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-card-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.card-image-wrapper {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.food-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.food-card-item:hover .food-card-image {
+    transform: scale(1.05);
+}
+
+.food-card-content {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.food-card-content h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.food-card-content p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Text-only cards (for foods without images) */
+.food-card-item.text-only {
+    justify-content: center;
+    min-height: 220px;
+}
+
+/* ---- Elegant Grid (Where to Eat) ---- */
+.elegant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.elegant-item h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+}
+
+.elegant-item p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* ---- Clean List Grid (Tips & Itinerary) ---- */
+.clean-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.clean-list-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.list-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    min-width: 40px;
+}
+
+.clean-list-item h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 6px;
+}
+
+.clean-list-item p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ---- Sidebar Specific Styles ---- */
+.sidebar-card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+}
+
+.sidebar-pill {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.quote-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    margin-bottom: 12px;
+    color: var(--navy);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.quote-card p {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 22px;
+    line-height: 1.7;
+}
+
+.quote-card .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.quote-card .button-blue {
+    background: var(--navy);
+    color: white;
+    border: 1px solid var(--navy);
+}
+
+.quote-card .button-blue:hover {
+    background: var(--blue);
+    border-color: var(--blue);
+}
+
+.quote-card .button-outline {
+    background: transparent;
+    color: var(--navy);
+    border: 1px solid var(--line);
+}
+
+.quote-card .button-outline:hover {
+    border-color: var(--navy);
+}
+
+.sidebar-card .small-note {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 15px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+}
+
+.related-guides h4 {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--navy);
+    margin-bottom: 15px;
+}
+
+.sidebar-routes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--blue);
+    text-decoration: none;
+    line-height: 1.5;
+    display: block;
+    transition: color 0.2s ease;
+}
+
+.sidebar-link:hover {
+    color: var(--navy);
+}
+
+/* ---- Full Width Sections ---- */
+.full-width-section {
+    width: 100%;
+    padding: 90px 7%;
+    background: #ffffff;
+    border-top: 1px solid var(--line);
+}
+
+.full-width-section.alt-bg {
+    background: var(--paper);
+}
+
+.section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1000px) {
+    .clean-list-grid,
+    .elegant-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .quick-stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .quick-stats-bar {
+        grid-template-columns: 1fr;
+    }
+    .food-grid {
+        grid-template-columns: 1fr;
+    }
+    .full-width-section {
+        padding: 60px 5%;
+    }
+}

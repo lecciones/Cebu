@@ -1,0 +1,1187 @@
+/* ========================================
+   SMART TOURIST NAVIGATOR
+   DESTINATION DETAIL PAGE
+   Reference: Cebu travel-guide layout
+======================================== */
+
+:root {
+    --paper: #fffdf8;
+    --card: #ffffff;
+    --ink: #19333b;
+    --navy: #123642;
+    --teal: #087f8c;
+    --teal-dark: #075b64;
+    --muted: #62767a;
+    --line: #d5e4e3;
+    --soft-teal: #f0fbfb;
+    --soft-orange: #fff5e9;
+    --orange: #f4a340;
+    --shadow-sm: 0 3px 12px rgba(18, 54, 66, 0.07);
+    --radius: 14px;
+}
+
+/* PAGE BASE */
+
+.destination-detail-page {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 0;
+    overflow: hidden;
+}
+
+.destination-detail-page *,
+.destination-detail-page *::before,
+.destination-detail-page *::after {
+    box-sizing: border-box;
+}
+
+.destination-detail-page img {
+    max-width: 100%;
+}
+
+/* ========================================
+   HERO SECTION (Updated to match screenshot)
+======================================== */
+
+.destination-detail-page .detail-hero {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    min-height: 600px; /* Taller to match image */
+    margin: 0;
+    padding: 0; /* Remove padding to use flex positioning */
+    overflow: hidden;
+    color: white;
+    background-color: #174f5a;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-detail-page .detail-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    /* Darker on the left, fading to right */
+    background: linear-gradient(
+        90deg,
+        rgba(7, 35, 43, 0.85) 0%,
+        rgba(7, 35, 43, 0.55) 45%,
+        rgba(7, 35, 43, 0.15) 100%
+    );
+}
+
+.destination-detail-page .hero-overlay {
+    display: none; /* Hidden, using ::before gradient instead */
+}
+
+.destination-detail-page .hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 800px;
+    /* This padding pushes the text exactly where it needs to be */
+    padding: 80px 0 150px 9%; 
+}
+
+.destination-detail-page .hero-eyebrow,
+.destination-detail-page .hero-content .eyebrow {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #f4c95d; /* Gold color from screenshot */
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.destination-detail-page .hero-content h1 {
+    margin: 0 0 25px;
+    color: white;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: clamp(48px, 6vw, 80px); /* Massive typography */
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.destination-detail-page .hero-content h1 em {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #f4c95d;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.destination-detail-page .hero-content p {
+    max-width: 520px;
+    margin: 0 0 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Caption at the bottom */
+.destination-detail-page .hero-caption {
+    position: absolute;
+    right: 9%;
+    bottom: 60px;
+    left: 9%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* ANIMATED WAVE */
+
+.destination-detail-page .hero-wave {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    z-index: 4;
+    height: 75px; /* Slightly taller wave */
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.destination-detail-page .wave-svg {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: 100%;
+    fill: var(--paper);
+}
+
+.destination-detail-page .wave-back {
+    opacity: 0.58;
+    animation: destination-wave 18s linear infinite;
+}
+
+.destination-detail-page .wave-front {
+    animation: destination-wave 12s linear infinite reverse;
+}
+
+@keyframes destination-wave {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+/* ========================================
+   QUICK INFORMATION BAR
+======================================== */
+
+.quick-stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+    padding: 28px clamp(22px, 5vw, 70px);
+    background: #fffefa;
+    border-bottom: 1px solid var(--line);
+}
+
+.stat-item {
+    min-width: 0;
+}
+
+.stat-label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--teal);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.stat-desc {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.65;
+}
+
+/* ========================================
+   MAIN TWO-COLUMN LAYOUT
+======================================== */
+
+.destination-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+    gap: clamp(28px, 4vw, 52px);
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    padding: 40px clamp(20px, 4vw, 48px) 70px;
+}
+
+.main-content,
+.sidebar {
+    min-width: 0;
+}
+
+.sidebar {
+    position: sticky;
+    top: 22px;
+}
+
+/* ========================================
+   BREADCRUMBS
+======================================== */
+
+.breadcrumbs {
+    margin-bottom: 24px;
+    color: #849397;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.breadcrumbs a {
+    color: var(--teal);
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   INTRODUCTION AND MAP
+======================================== */
+
+.intro-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(190px, 235px);
+    align-items: start;
+    gap: 24px;
+    margin-bottom: 25px;
+}
+
+.intro-text-content p,
+.main-content > p {
+    margin: 0 0 14px;
+    color: #50666b;
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+.intro-map-wrapper {
+    overflow: hidden;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    box-shadow: var(--shadow-sm);
+}
+
+.location-map {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.map-caption {
+    padding: 12px;
+    background: #fbfcfa;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 10px;
+    line-height: 1.65;
+}
+
+.map-caption strong {
+    color: var(--navy);
+}
+
+/* ========================================
+   LOCAL TIP
+======================================== */
+
+.local-tip-alert,
+.info-alert.note {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 24px 0;
+    padding: 16px;
+    border: 1px solid #f2c17d;
+    border-radius: 12px;
+    background: var(--soft-orange);
+    color: #684d2b;
+}
+
+.tip-icon,
+.alert-icon {
+    display: grid;
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffe7c4;
+    font-size: 14px;
+}
+
+.local-tip-alert strong {
+    display: block;
+    margin: 1px 0 6px;
+    color: #b76a18;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+
+.local-tip-alert p,
+.info-alert.note p {
+    margin: 0;
+    color: #715d43;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+/* ========================================
+   SECTION HEADINGS
+======================================== */
+
+.section-title {
+    margin: 34px 0 16px;
+    color: var(--navy);
+    font-size: clamp(21px, 2.4vw, 27px);
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.7px;
+}
+
+/* ========================================
+   TRANSPORT OPTIONS
+======================================== */
+
+.transport-option {
+    margin-bottom: 12px;
+    padding: 17px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: var(--card);
+    box-shadow: 0 2px 8px rgba(18, 54, 66, 0.035);
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.transport-option:hover {
+    border-color: #a8d7d8;
+}
+
+.transport-option.highlighted {
+    border-color: #77d5d9;
+    background: #f1fcfc;
+}
+
+.option-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 9px;
+}
+
+.option-icon {
+    display: grid;
+    flex: 0 0 29px;
+    width: 29px;
+    height: 29px;
+    place-items: center;
+    border-radius: 50%;
+    background: #e7f7f7;
+    color: var(--teal);
+    font-size: 13px;
+}
+
+.option-icon.check {
+    background: #0ab5bf;
+    color: white;
+}
+
+.option-icon.bus {
+    background: #e6f7f6;
+    color: var(--teal);
+}
+
+.option-title-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.option-title-group h3 {
+    margin: 0;
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.time-badge {
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: #edf2f3;
+    color: #5e7075;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.transport-option p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+/* ========================================
+   DESTINATION PHOTO GALLERY
+======================================== */
+
+.destination-gallery,
+.photo-gallery,
+.destination-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 24px 0 32px;
+}
+
+.destination-gallery figure {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1.35 / 1;
+    margin: 0;
+    border-radius: 12px;
+    background: #e8eeee;
+    box-shadow: var(--shadow-sm);
+}
+
+.destination-gallery img,
+.photo-gallery img,
+.destination-photo-grid img {
+    display: block;
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    border: 1px solid rgba(18, 54, 66, 0.08);
+    border-radius: 11px;
+}
+
+.destination-gallery figure img {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    transition: transform 0.35s ease;
+}
+
+.destination-gallery figure:hover img {
+    transform: scale(1.045);
+}
+
+.destination-gallery figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px 12px 10px;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    background: linear-gradient(transparent, rgba(8, 33, 40, 0.75));
+}
+
+/* ========================================
+   WHAT TO EXPECT
+======================================== */
+
+.expect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 0 0 24px;
+}
+
+.expect-card {
+    padding: 17px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(18, 54, 66, 0.035);
+}
+
+.expect-card h3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    margin: 0 0 8px;
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.expect-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.8;
+}
+
+/* ========================================
+   BEACH GUIDE AND QUOTE COVERAGE
+======================================== */
+
+.beach-section,
+.quote-covers-section,
+.route-guides-section {
+    margin: 30px 0;
+}
+
+.beach-guide-grid,
+.quote-covers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+    margin: 18px 0 25px;
+}
+
+.beach-guide-card,
+.quote-cover-card {
+    min-width: 0;
+    padding: 17px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.beach-guide-card h3,
+.quote-cover-card h3 {
+    margin: 0 0 8px;
+    color: var(--navy);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.beach-guide-card p,
+.quote-cover-card p,
+.beach-guide-card li,
+.quote-cover-card li,
+.beach-section p,
+.quote-covers-section p {
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.beach-guide-card p,
+.quote-cover-card p {
+    margin: 0;
+}
+
+.beach-guide-card ul,
+.quote-cover-card ul {
+    margin: 8px 0 0;
+    padding-left: 17px;
+}
+
+.beach-guide-card.teal {
+    border-color: #9edfe0;
+    background: var(--soft-teal);
+}
+
+.beach-guide-card.sand {
+    background: #fbf7ed;
+}
+
+.editorial-list {
+    margin: 18px 0 26px;
+    padding-left: 19px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.9;
+}
+
+.editorial-list li {
+    margin-bottom: 7px;
+}
+
+/* ========================================
+   FAQ ACCORDION
+======================================== */
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 34px;
+}
+
+.faq-item {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 11px;
+    background: white;
+    box-shadow: 0 2px 7px rgba(18, 54, 66, 0.035);
+}
+
+.faq-item summary {
+    position: relative;
+    padding: 14px 42px 14px 16px;
+    color: var(--navy);
+    cursor: pointer;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 750;
+    line-height: 1.6;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    color: var(--teal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-answer {
+    padding: 13px 16px 16px;
+    border-top: 1px solid #edf2f2;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+/* ========================================
+   SIDEBAR CARDS
+======================================== */
+
+.sidebar-card {
+    margin-bottom: 17px;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.sidebar-pill {
+    display: inline-block;
+    margin-bottom: 11px;
+    color: var(--teal);
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.quote-card h3 {
+    margin: 0 0 12px;
+    color: var(--navy);
+    font-size: 23px;
+    font-weight: 850;
+    line-height: 1.2;
+    letter-spacing: -0.6px;
+}
+
+.quote-card p {
+    margin: 0 0 15px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.quote-card .small-note {
+    margin-top: 13px;
+    color: #849397;
+    font-size: 9px;
+}
+
+.sidebar-card .button,
+.destination-detail-page .quote-card .button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    padding: 12px 15px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 800;
+    transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-card .button-blue,
+.destination-detail-page .quote-card .button-blue {
+    border: 1px solid var(--teal-dark);
+    background: var(--teal-dark);
+    color: white;
+}
+
+.sidebar-card .button-blue:hover {
+    background: #064b53;
+}
+
+.sidebar-card .button-outline,
+.destination-detail-page .quote-card .button-outline {
+    border: 1px solid #a9c9cb;
+    background: white;
+    color: var(--teal-dark);
+}
+
+.sidebar-card .button-outline:hover {
+    background: var(--soft-teal);
+}
+
+.related-guides h4 {
+    margin: 0 0 13px;
+    color: var(--navy);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sidebar-routes {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.sidebar-link {
+    display: block;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #edf2f1;
+    color: var(--teal-dark);
+    font-size: 10px;
+    font-weight: 650;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.sidebar-link:last-child {
+    border-bottom: 0;
+}
+
+.sidebar-link:hover,
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.text-link {
+    color: var(--teal);
+    text-decoration: none;
+}
+
+/* ========================================
+   ROUTE GUIDE LINKS
+======================================== */
+
+.route-guide-grid,
+.route-guides-grid,
+.route-guides {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+    margin: 16px 0 26px;
+}
+
+.route-guide-link,
+.route-guides a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(18, 54, 66, 0.04);
+    color: var(--teal-dark);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.route-guide-link::after {
+    content: "↗";
+    color: var(--orange);
+}
+
+.route-guide-link:hover,
+.route-guides a:hover {
+    border-color: #9edfe0;
+    background: var(--soft-teal);
+}
+
+/* ========================================
+   GENERAL LINKS AND BUTTONS
+======================================== */
+
+.destination-detail-page a {
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.destination-detail-page a:focus-visible,
+.destination-detail-page summary:focus-visible {
+    outline: 3px solid #f4a340;
+    outline-offset: 3px;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+======================================== */
+
+@media (max-width: 1000px) {
+    .destination-layout {
+        grid-template-columns: minmax(0, 1fr) 270px;
+        gap: 24px;
+    }
+
+    .intro-section {
+        grid-template-columns: minmax(0, 1fr) 200px;
+        gap: 16px;
+    }
+
+    .quick-stats-bar {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+    .destination-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .sidebar {
+        position: static;
+    }
+
+    .quick-stats-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .intro-section {
+        grid-template-columns: minmax(0, 1fr) 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .destination-detail-page .detail-hero {
+        min-height: 390px;
+    }
+    
+    .destination-detail-page .hero-content {
+        padding: 55px 22px 100px;
+    }
+
+    .destination-detail-page .hero-content h1 {
+        font-size: clamp(40px, 12vw, 58px);
+    }
+
+    .destination-detail-page .hero-caption {
+        bottom: 58px;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 8px;
+    }
+
+    .quick-stats-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px 14px;
+        padding: 22px 18px;
+    }
+
+    .stat-value {
+        font-size: 14px;
+    }
+
+    .destination-layout {
+        padding: 27px 16px 45px;
+    }
+
+    .intro-section {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .intro-map-wrapper {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .expect-grid,
+    .beach-guide-grid,
+    .beach-info-grid,
+    .quote-covers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-gallery,
+    .photo-gallery,
+    .destination-photo-grid {
+        gap: 8px;
+    }
+
+    .destination-gallery img,
+    .photo-gallery img,
+    .destination-photo-grid img {
+        height: 125px;
+    }
+
+    .destination-gallery figure {
+        aspect-ratio: 1.1 / 1;
+    }
+
+    .section-title {
+        font-size: 21px;
+    }
+
+    .sidebar-card {
+        padding: 19px;
+    }
+
+    .quote-card h3 {
+        font-size: 23px;
+    }
+
+    .route-guide-grid,
+    .route-guides-grid,
+    .route-guides {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 380px) {
+    .quick-stats-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .route-guide-grid,
+    .route-guides-grid,
+    .route-guides {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-detail-page .hero-content h1 {
+        font-size: 39px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .destination-detail-page .wave-back,
+    .destination-detail-page .wave-front {
+        animation: none;
+    }
+
+    .destination-gallery img {
+        transition: none;
+    }
+}
+
+/* ========================================
+   READABILITY ENHANCEMENT
+   Larger text for destination pages
+======================================== */
+
+.destination-detail-page .intro-text-content p,
+.destination-detail-page .main-content > p,
+.destination-detail-page .transport-option p,
+.destination-detail-page .expect-card p,
+.destination-detail-page .beach-guide-card p,
+.destination-detail-page .quote-cover-card p,
+.destination-detail-page .beach-guide-card li,
+.destination-detail-page .quote-cover-card li,
+.destination-detail-page .beach-section p,
+.destination-detail-page .quote-covers-section p {
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+.destination-detail-page .section-title {
+    font-size: clamp(24px, 3vw, 30px);
+    line-height: 1.4;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+
+.destination-detail-page .option-title-group h3 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.destination-detail-page .option-header {
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.destination-detail-page .transport-option {
+    padding: 22px;
+    margin-bottom: 16px;
+}
+
+.destination-detail-page .expect-card {
+    padding: 22px;
+}
+
+.destination-detail-page .expect-card h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.destination-detail-page .local-tip-alert p,
+.destination-detail-page .info-alert.note p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.destination-detail-page .local-tip-alert strong {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.destination-detail-page .map-caption {
+    font-size: 13px;
+    line-height: 1.75;
+    padding: 14px;
+}
+
+.destination-detail-page .breadcrumbs {
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.destination-detail-page .quote-card p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.destination-detail-page .quote-card .small-note {
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.destination-detail-page .sidebar-link {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.destination-detail-page .related-guides h4 {
+    font-size: 12px;
+}
+
+.destination-detail-page .sidebar-card .button,
+.destination-detail-page .quote-card .button {
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.destination-detail-page .faq-item summary {
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 17px 44px 17px 18px;
+}
+
+.destination-detail-page .faq-answer {
+    font-size: 15px;
+    line-height: 1.85;
+    padding: 16px 18px 19px;
+}
+
+.destination-detail-page .route-guide-link,
+.destination-detail-page .route-guides a {
+    font-size: 13px;
+    line-height: 1.65;
+    padding: 13px;
+}
+
+.destination-detail-page .destination-gallery figcaption {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.destination-detail-page .stat-desc {
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.destination-detail-page .stat-label {
+    font-size: 11px;
+}
+
+.destination-detail-page .stat-value {
+    font-size: 17px;
+}
+
+.destination-detail-page .sidebar-pill {
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .destination-detail-page .intro-text-content p,
+    .destination-detail-page .main-content > p,
+    .destination-detail-page .transport-option p,
+    .destination-detail-page .expect-card p,
+    .destination-detail-page .beach-guide-card p,
+    .destination-detail-page .quote-cover-card p,
+    .destination-detail-page .beach-guide-card li,
+    .destination-detail-page .quote-cover-card li,
+    .destination-detail-page .beach-section p,
+    .destination-detail-page .quote-covers-section p {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .destination-detail-page .section-title {
+        font-size: 25px;
+    }
+
+    .destination-detail-page .expect-card h3,
+    .destination-detail-page .option-title-group h3 {
+        font-size: 16px;
+    }
+
+    .destination-detail-page .faq-item summary,
+    .destination-detail-page .faq-answer,
+    .destination-detail-page .sidebar-link,
+    .destination-detail-page .quote-card p {
+        font-size: 15px;
+    }
+
+    .destination-detail-page .stat-desc {
+        font-size: 13px;
+    }
+}
