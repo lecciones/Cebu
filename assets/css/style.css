@@ -251,7 +251,7 @@ select:focus-visible {
 
     background:
         #123c4b
-        url('../images/kawasan.jpg')
+        url('../images/destination/kawasan.jpg')
         center / cover no-repeat;
 }
 
@@ -753,7 +753,7 @@ h2 em {
 }
 
 .kawasan {
-    background-image: url('../images/amazing falls.jpg');
+    background-image: url('../images/amazing-falls.jpg');
 }
 
 .bantayan {

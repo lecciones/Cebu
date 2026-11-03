@@ -1,44 +1,143 @@
+
 /* ========================================
+   SMART TOURIST NAVIGATOR
    DESTINATION PAGE STYLES
    File: assets/css/destination.css
 ======================================== */
 
-/* ---- Page Layout ---- */
+
+/* ========================================
+   1. HERO SECTION
+======================================== */
+
 .destination-hero {
-    min-height: 480px;
+    position: relative;
+    height: 700px;
+    min-height: 700px;
+    overflow: hidden;
 }
 
-.destination-hero h1 {
-    font-size: clamp(38px, 5vw, 60px);
+/* Hero Content */
+.destination-hero .hero-content {
+    position: relative;
+    z-index: 5;
+
+    max-width: 800px;
+
+    padding-top: 110px;
+    padding-bottom: 40px;
 }
+
+/* Hero Heading */
+.destination-hero h1 {
+    font-size: clamp(42px, 5vw, 64px);
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+
+.destination-hero h1 em {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Hero Description */
+.destination-hero .hero-content p {
+    max-width: 580px;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 28px;
+}
+
+/* Hero Buttons */
+.destination-hero .hero-actions {
+    position: relative;
+    z-index: 6;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+/* Hero Footnote */
+.destination-hero .hero-footnote {
+    position: relative;
+    z-index: 6;
+
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Hero Caption */
+.destination-hero .hero-caption {
+    position: absolute;
+    z-index: 6;
+
+    bottom: 125px;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 8.5%;
+
+    pointer-events: none;
+}
+
+/* Animated Wave */
+.destination-hero .hero-wave {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+/* ========================================
+   2. PAGE LAYOUT
+======================================== */
 
 .destination-grid-section {
+    padding-top: 65px;
     padding-bottom: 80px;
 }
 
 .destination-layout {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
+
     gap: 32px;
+
     align-items: start;
-    margin-top: 20px;
+
+    margin-top: 25px;
 }
 
-@media (max-width: 992px) {
-    .destination-layout {
-        grid-template-columns: 1fr;
-    }
-}
 
-/* ---- Map ---- */
+/* ========================================
+   3. MAP CONTAINER
+======================================== */
+
 .map-wrapper {
     position: relative;
+
     width: 100%;
     height: 580px;
+
     border-radius: var(--radius-md);
     overflow: hidden;
+
     border: 1px solid var(--line);
+
     background-color: #f0f4f8;
+
     box-shadow: var(--shadow-md);
 }
 
@@ -48,34 +147,55 @@
     z-index: 1;
 }
 
-/* Leaflet Marker Customization */
+
+/* ========================================
+   4. LEAFLET MARKERS
+======================================== */
+
 .custom-marker {
     width: 14px;
     height: 14px;
+
     background-color: var(--blue);
+
     border: 3px solid #ffffff;
     border-radius: 50%;
+
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 .marker-label {
     position: absolute;
+
     top: -24px;
     left: 50%;
+
     transform: translateX(-50%);
+
     font-size: 10px;
     font-weight: 700;
+
     color: var(--navy);
+
     white-space: nowrap;
+
     background: rgba(255,255,255,0.95);
+
     padding: 3px 8px;
+
     border-radius: 4px;
     border: 1px solid var(--line);
+
     pointer-events: none;
+
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* ---- Routes Panel ---- */
+
+/* ========================================
+   5. ROUTES PANEL
+======================================== */
+
 .routes-panel {
     display: flex;
     flex-direction: column;
@@ -88,82 +208,208 @@
     gap: 10px;
 }
 
+/* Route Group Heading */
 .route-group-title {
     font-size: 11px;
     font-weight: 800;
+
     text-transform: uppercase;
     letter-spacing: 1.5px;
+
     color: var(--blue);
 }
 
+/* Route Pills Container */
 .pills-container {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-/* Route Pills */
+
+/* ========================================
+   6. ROUTE PILLS
+======================================== */
+
 .pill {
     background: var(--white);
+
     border: 1px solid var(--line);
     border-radius: 100px;
+
     padding: 8px 14px;
+
     font-size: 11px;
     font-weight: 600;
+
     color: var(--muted);
+
     cursor: pointer;
+
     transition: all 0.2s ease;
+
     user-select: none;
+
     box-shadow: var(--shadow-sm);
 }
 
+/* Hover Effect */
 .pill:hover {
     background: var(--blue);
+
     border-color: var(--blue);
+
     color: white;
+
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.2);
+
+    box-shadow: 0 4px 12px rgba(0,119,182,0.2);
 }
 
+/* Active Route */
 .pill.active {
     background: var(--blue);
+
     border-color: var(--blue);
+
     color: white;
+
     box-shadow: 0 0 0 2px var(--blue);
 }
 
-/* ---- Legend ---- */
+/* Keyboard Focus */
+.pill:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+}
+
+
+/* ========================================
+   7. SELECTED ROUTE INFORMATION
+======================================== */
+
+.route-info {
+    background: #ffffff;
+
+    border: 1px solid var(--line);
+    border-radius: 12px;
+
+    padding: 18px;
+
+    box-shadow: var(--shadow-sm);
+}
+
+/* Route Title */
+.route-info h3 {
+    font-size: 17px;
+
+    margin: 0 0 8px;
+
+    color: var(--navy);
+}
+
+/* Route Description */
+.route-info p {
+    font-size: 13px;
+
+    color: var(--muted);
+
+    margin: 0 0 14px;
+
+    line-height: 1.6;
+}
+
+/* Google Maps Button */
+.google-maps-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 11px 18px;
+
+    background: var(--blue);
+    color: #ffffff;
+
+    border-radius: 8px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.google-maps-button:hover {
+    background: var(--navy);
+
+    transform: translateY(-2px);
+}
+
+/* Route Disclaimer */
+.route-info .route-note {
+    font-size: 10px;
+
+    line-height: 1.5;
+
+    margin-top: 12px;
+    margin-bottom: 0;
+
+    opacity: 0.8;
+}
+
+
+/* ========================================
+   8. ROUTE LEGEND
+======================================== */
+
 .route-legend {
     display: flex;
+
     gap: 16px;
     flex-wrap: wrap;
+
     margin-top: 10px;
     padding-top: 15px;
+
     border-top: 1px solid var(--line);
 }
 
+/* Legend Items */
 .legend-item {
     display: flex;
+
     align-items: center;
     gap: 8px;
+
     font-size: 10px;
     font-weight: 600;
+
     color: var(--muted);
+
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
+/* Legend Line */
 .legend-line {
     display: inline-block;
+
     width: 24px;
     height: 3px;
+
     border-radius: 2px;
 }
 
+/* Road Route */
 .legend-line.road {
     background: var(--blue);
 }
 
+/* Ferry Route */
 .legend-line.ferry {
     background: repeating-linear-gradient(
         90deg,
@@ -172,45 +418,203 @@
         transparent 6px,
         transparent 12px
     );
+
     height: 4px;
 }
 
-/* ---- Back Button Container ---- */
+
+/* ========================================
+   9. BACK TO DESTINATIONS BUTTON
+======================================== */
+
 .browse-destinations-wrap {
     text-align: center;
+
     margin-top: 50px;
     padding-top: 30px;
+
     border-top: 1px solid var(--line);
 }
 
 .browse-destinations {
     display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
     width: auto;
+
     padding: 14px 30px;
 }
 
-/* ---- Responsive Adjustments ---- */
+
+/* ========================================
+   10. TABLET RESPONSIVE
+======================================== */
+
+@media (max-width: 992px) {
+
+    .destination-layout {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .map-wrapper {
+        height: 500px;
+    }
+
+    .routes-panel {
+        width: 100%;
+    }
+
+}
+
+
+/* ========================================
+   11. SMALLER TABLETS
+======================================== */
+
 @media (max-width: 800px) {
+
+    .destination-hero {
+        height: 680px;
+        min-height: 680px;
+    }
+
+    .destination-hero .hero-content {
+        padding-top: 95px;
+        padding-bottom: 40px;
+    }
+
+    .destination-hero .hero-caption {
+        bottom: 110px;
+    }
+
     .map-wrapper {
         height: 420px;
     }
+
 }
 
+
+/* ========================================
+   12. MOBILE RESPONSIVE
+======================================== */
+
 @media (max-width: 560px) {
+
+    .destination-hero {
+        height: 720px;
+        min-height: 720px;
+    }
+
+    .destination-hero .hero-content {
+        padding-top: 85px;
+        padding-bottom: 40px;
+    }
+
+    .destination-hero h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .destination-hero .hero-content p {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .destination-hero .hero-actions {
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .destination-hero .hero-caption {
+        bottom: 95px;
+        padding: 0 20px;
+        font-size: 9px;
+    }
+
     .map-wrapper {
         height: 350px;
     }
-    .destination-hero {
-        min-height: 400px;
-    }
-    .destination-hero h1 {
-        font-size: 34px;
-    }
+
     .pill {
         font-size: 10px;
         padding: 7px 12px;
     }
+
+    .route-group-title {
+        font-size: 10px;
+    }
+
+    .route-info {
+        padding: 15px;
+    }
+
+    .route-info h3 {
+        font-size: 15px;
+    }
+
     .browse-destinations {
         width: 100%;
     }
+
+}
+
+
+/* ========================================
+   13. VERY SMALL MOBILE SCREENS
+======================================== */
+
+@media (max-width: 380px) {
+
+    .destination-hero {
+        height: 750px;
+        min-height: 750px;
+    }
+
+    .destination-hero h1 {
+        font-size: 32px;
+    }
+
+    .destination-hero .hero-content {
+        padding-top: 75px;
+    }
+
+    .destination-hero .hero-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .destination-hero .hero-caption {
+        font-size: 8px;
+        padding: 0 15px;
+    }
+
+    .map-wrapper {
+        height: 300px;
+    }
+
+}
+
+/* ========================================
+   DESTINATION HERO - WAVE POSITION FIX
+======================================== */
+
+.destination-hero .hero-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.destination-hero .wave-svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

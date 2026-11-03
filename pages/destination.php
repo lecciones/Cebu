@@ -9,20 +9,13 @@
     <meta name="description" content="Discover Cebu attractions, local food, transport tips and travel routes.">
     <title>Destinations & Routes | Smart Tourist Navigator</title>
 
-    <!-- Main Stylesheet (Up one level) -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    
-    <!-- Destination Page Stylesheet (Up one level) -->
     <link rel="stylesheet" href="../assets/css/destination.css">
 
-    <!-- Leaflet CSS (Needs to be here for the map to work) -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    
-    <!-- Leaflet JS Library -->
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    
-    <!-- Custom Destination JS (Up one level) -->
-    <script src="../assets/js/destination.js" defer></script>
+    <script src="../assets/js/destination.js?v=5" defer></script>
 </head>
 
 <body>
@@ -61,7 +54,7 @@
             <div class="hero-content">
                 <span class="eyebrow hero-eyebrow">EXPLORE THE ISLAND</span>
                 <h1>
-                    Where to go in Cebu -<br>
+                    Where to go in Cebu
                     <em>and how to get there.</em>
                 </h1>
                 <p>
@@ -93,7 +86,7 @@
 
         <!-- MAIN GRID: MAP & ROUTES -->
         <section class="section destination-grid-section" id="routes">
-            
+
             <div class="section-heading">
                 <div>
                     <span class="eyebrow">FIND YOUR WAY</span>
@@ -103,7 +96,7 @@
             </div>
 
             <div class="destination-layout">
-                
+
                 <!-- LEFT: INTERACTIVE MAP -->
                 <div class="map-wrapper">
                     <div id="map"></div>
@@ -111,7 +104,7 @@
 
                 <!-- RIGHT: ROUTE PILLS -->
                 <div class="routes-panel">
-                    
+
                     <!-- FROM CEBU CITY -->
                     <div class="routes-group">
                         <span class="route-group-title">From Cebu City</span>
@@ -132,8 +125,27 @@
                             <div class="pill" data-route="cebu-pier">Cebu City Pier → Mactan-Cebu Airport</div>
                             <div class="pill" data-route="cebu-mactan">Cebu City → Mactan-Cebu Airport</div>
                             <div class="pill" data-route="cebu-highlands">Cebu City → Cebu Highlands</div>
+
+                            <!-- NEW CEBU CITY LOCATIONS -->
+                            <div class="pill" data-route="cebu-ocean-park">Cebu City → Cebu Ocean Park</div>
+                            <div class="pill" data-route="cebu-seaside">Cebu City → SM Seaside</div>
+                            <div class="pill" data-route="cebu-ayala">Cebu City → Ayala Center</div>
+                            <div class="pill" data-route="cebu-sm-city">Cebu City → SM City Cebu</div>
+                            <div class="pill" data-route="cebu-central-bloc">Cebu City → Central Bloc</div>
+                            <div class="pill" data-route="cebu-il-corso">Cebu City → IL Corso</div>
+                            <div class="pill" data-route="cebu-carbon">Cebu City → Carbon Market</div>
+                            <div class="pill" data-route="cebu-taboan">Cebu City → Taboan Market</div>
+                            <div class="pill" data-route="cebu-colon">Cebu City → Colon Street</div>
+                            <div class="pill" data-route="cebu-museo">Cebu City → Museo Sugbo</div>
+                            <div class="pill" data-route="cebu-cathedral">Cebu City → Cebu Metropolitan Cathedral</div>
+                            <div class="pill" data-route="cebu-heritage">Cebu City → Cebu Heritage Monument</div>
+                            <div class="pill" data-route="cebu-yap-sandiego">Cebu City → Yap-Sandiego House</div>
+                            <div class="pill" data-route="cebu-jesuit-house">Cebu City → Jesuit House</div>
+                            <div class="pill" data-route="cebu-capitol">Cebu City → Cebu Provincial Capitol</div>
+                            <div class="pill" data-route="cebu-jumalon">Cebu City → Jumalon Butterfly Sanctuary</div>
                         </div>
                     </div>
+
 
                     <!-- FROM MACTAN AIRPORT -->
                     <div class="routes-group">
@@ -153,8 +165,17 @@
                             <div class="pill" data-route="mactan-highlands">Mactan Airport → Cebu Highlands</div>
                             <div class="pill" data-route="mactan-osmena">Mactan Airport → Osmeña Peak</div>
                             <div class="pill" data-route="mactan-pier">Mactan Airport → Cebu City Pier</div>
+
+                            <!-- NEW MACTAN LOCATIONS -->
+                            <div class="pill" data-route="mactan-shrine">Mactan Airport → Mactan Shrine</div>
+                            <div class="pill" data-route="mactan-roses">Mactan Airport → 10,000 Roses</div>
+                            <div class="pill" data-route="mactan-olango">Mactan Airport → Olango Island</div>
+                            <div class="pill" data-route="mactan-newtown">Mactan Airport → Mactan Newtown</div>
+                            <div class="pill" data-route="mactan-caohagan">Mactan Airport → Caohagan Island</div>
+                            <div class="pill" data-route="mactan-sulpa">Mactan Airport → Sulpa Island</div>
                         </div>
                     </div>
+
 
                     <!-- SOUTH CEBU ROUTES -->
                     <div class="routes-group">
@@ -184,8 +205,20 @@
                             <div class="pill" data-route="hagnaya-moalboal">Hagnaya Port → Moalboal</div>
                             <div class="pill" data-route="moalboal-maya">Moalboal → Maya Port</div>
                             <div class="pill" data-route="maya-moalboal">Maya Port → Moalboal</div>
+
+                            <!-- NEW SOUTH CEBU LOCATIONS -->
+                            <div class="pill" data-route="cebu-bojo">Cebu City → Bojo River</div>
+                            <div class="pill" data-route="cebu-lambug">Cebu City → Lambug Beach</div>
+                            <div class="pill" data-route="cebu-aguinid">Cebu City → Aguinid Falls</div>
+                            <div class="pill" data-route="cebu-inambakan">Cebu City → Inambakan Falls</div>
+                            <div class="pill" data-route="cebu-dao">Cebu City → Dao Falls</div>
+                            <div class="pill" data-route="cebu-argao">Cebu City → Argao</div>
+                            <div class="pill" data-route="cebu-boljoon">Cebu City → Boljoon</div>
+                            <div class="pill" data-route="cebu-dalaguete">Cebu City → Dalaguete</div>
+                            <div class="pill" data-route="cebu-mantayupan">Cebu City → Mantayupan Falls</div>
                         </div>
                     </div>
+
 
                     <!-- NORTH & ISLAND CONNECTIONS -->
                     <div class="routes-group">
@@ -205,8 +238,33 @@
                             <div class="pill" data-route="moalboal-bohol">Moalboal → Bohol</div>
                             <div class="pill" data-route="bohol-cebu">Bohol → Cebu City</div>
                             <div class="pill" data-route="bohol-mactan">Bohol → Mactan-Cebu Airport</div>
+
+                            <!-- NEW NORTH CEBU LOCATIONS -->
+                            <div class="pill" data-route="cebu-carnaza">Cebu City → Carnaza Island</div>
+                            <div class="pill" data-route="cebu-virgin-bantayan">Cebu City → Virgin Island Bantayan</div>
+                            <div class="pill" data-route="cebu-kota">Cebu City → Kota Beach</div>
+                            <div class="pill" data-route="cebu-gibitngil">Cebu City → Gibitngil Island</div>
+                            <div class="pill" data-route="cebu-medellin">Cebu City → Medellin</div>
+                            <div class="pill" data-route="cebu-san-remigio">Cebu City → San Remigio</div>
+                            <div class="pill" data-route="cebu-tuburan">Cebu City → Tuburan Springs</div>
+                            <div class="pill" data-route="cebu-luyang">Cebu City → Luyang Cave</div>
+                            <div class="pill" data-route="cebu-timubo">Cebu City → Timubo Cave</div>
                         </div>
                     </div>
+
+
+                    <!-- VIEWPOINTS & HIGHLANDS -->
+                    <div class="routes-group">
+                        <span class="route-group-title">Viewpoints & Highlands</span>
+                        <div class="pills-container">
+                            <div class="pill" data-route="cebu-tops">Cebu City → TOPS</div>
+                            <div class="pill" data-route="cebu-sirao">Cebu City → Sirao Flower Garden</div>
+                            <div class="pill" data-route="cebu-taoist">Cebu City → Taoist Temple</div>
+                            <div class="pill" data-route="cebu-buwakan">Cebu City → Buwakan ni Alejandra</div>
+                            <div class="pill" data-route="cebu-kan-irag">Cebu City → Mount Kan-Irag</div>
+                        </div>
+                    </div>
+
 
                     <!-- FERRIES & PORTS -->
                     <div class="routes-group">
@@ -237,14 +295,14 @@
                             <div class="pill" data-route="balamban-cebu">Balamban → Cebu City</div>
                         </div>
                     </div>
-                    
+
+
                     <div class="route-legend">
                         <span class="legend-item"><span class="legend-line road"></span> Road Transfer</span>
                         <span class="legend-item"><span class="legend-line ferry"></span> Boat / Ferry</span>
                     </div>
 
                 </div>
-
             </div>
 
             <!-- BOTTOM NAVIGATION BUTTON -->
