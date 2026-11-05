@@ -10,7 +10,7 @@
     <title>Destinations & Routes | Smart Tourist Navigator</title>
 
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/destination.css">
+  <link rel="stylesheet" href="../assets/css/destination.css?v=2">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
