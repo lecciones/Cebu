@@ -1,0 +1,2574 @@
+{
+  "source": "Existing Smart Tourist Navigator destination PHP pages",
+  "generated_note": "Extracted from page content. Null means the page does not provide that information; verify time-sensitive facts before travel.",
+  "destination_count": 60,
+  "destinations": [
+    {
+      "id": "ayala-center",
+      "name": "Ayala Center Cebu",
+      "category": "Cebu City",
+      "location": "Cebu Business Park, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Shopping and dining hub Destination feature",
+      "experience": "Shopping & Dining Explore local attractions",
+      "travel_style": "Shopping & city leisure Plan ahead for your visit",
+      "description": "A well-known shopping and dining destination in Cebu Business Park, surrounded by offices, hotels, and landscaped public spaces.",
+      "overview": [
+        "Ayala Center Cebu is in Cebu Business Park. It offers a mix of retail stores, restaurants, cafés, services, and leisure spaces connected to the surrounding business district.",
+        "A well-known shopping and dining destination in Cebu Business Park, surrounded by offices, hotels, and landscaped public spaces.",
+        "Use the mall directory to locate stores and meeting points."
+      ],
+      "activities": [
+        "Shopping & Dining Explore local attractions",
+        "Shopping and dining hub Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "and event announcements",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Cebu Business Park, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Cebu Business Park, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Ayala Center Cebu on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Use the mall directory to locate stores and meeting points."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ayala+Center+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/ayala-center.php",
+      "source_file": "pages/destinations/cebu-city/ayala-center.php"
+    },
+    {
+      "id": "basilica",
+      "name": "Basilica del Santo Niño",
+      "category": "Cebu City",
+      "location": "Cebu City Downtown, near Magellan's Cross",
+      "coordinates": {
+        "latitude": 10.2946,
+        "longitude": 123.9024
+      },
+      "highlight": "Oldest Church Established in 1565",
+      "experience": "Historical & Religious Pilgrimage site",
+      "travel_style": "Cultural Trip Sightseeing & reflection",
+      "description": "The oldest Roman Catholic church in the Philippines, home to the revered Santo Niño statue and a cornerstone of Cebuano faith.",
+      "overview": [
+        "The Basilica Minore del Santo Niño de Cebú is a minor basilica in Cebu City dedicated to the Santo Niño (Holy Child Jesus). It is the oldest Roman Catholic church established in the Philippines, founded in 1565.",
+        "The basilica houses the image of the Santo Niño, a gift from Ferdinand Magellan to Rajah Humabon's wife, Queen Juana, upon their baptism in 1521. Today, it is a major pilgrimage site and the center of the annual Sinulog Festival.",
+        "Visitors can attend mass, light a candle in the outdoor candle lighting area, or visit the small museum that houses religious artifacts and historical items."
+      ],
+      "activities": [
+        "Historical & Religious Pilgrimage site",
+        "Oldest Church Established in 1565"
+      ],
+      "entrance_fee": "? No, entrance to the church is free",
+      "operating_hours": "? The church is usually open from 5:00 AM to 8:00 PM daily",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing 15-30 min From most hotels in Cebu City, take a taxi or Grab to the Basilica. Ask the driver to drop you at the Plaza Sugbo, just outside the church gates."
+        },
+        {
+          "option": "Jeepney",
+          "details": "🚌 Jeepney Take a jeepney bound for \"Colon\" or \"Carbon\" and get off near the Basilica. It's a short walk from the main road."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find the Basilica on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Dress respectfully. As this is an active place of worship, avoid wearing shorts, tank tops, or revealing clothing. If you plan to attend mass, arrive early as the church fills up quickly, especially on Sundays and during the Sinulog Festival in January."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica+del+Santo+Nino+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/basilica.php",
+      "source_file": "pages/destinations/cebu-city/basilica.php"
+    },
+    {
+      "id": "carbon-market",
+      "name": "Carbon Market",
+      "category": "Cebu City",
+      "location": "Downtown Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Traditional public market Destination feature",
+      "experience": "Public Market & Local Culture Explore local attractions",
+      "travel_style": "Local culture & food Plan ahead for your visit",
+      "description": "One of Cebu City's best-known public markets, offering a lively look at local produce, seafood, flowers, and everyday commerce.",
+      "overview": [
+        "Carbon Market is in downtown Cebu near the historic district and port area. It is an important marketplace where shoppers can find fresh goods and experience the city's daily trading culture.",
+        "One of Cebu City's best-known public markets, offering a lively look at local produce, seafood, flowers, and everyday commerce.",
+        "Be alert in crowded aisles and respect vendors' workspaces."
+      ],
+      "activities": [
+        "Public Market & Local Culture Explore local attractions",
+        "Traditional public market Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Downtown Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Downtown Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Carbon Market on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Be alert in crowded aisles and respect vendors' workspaces."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Carbon+Market+Cebu+City",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/carbon-market.php",
+      "source_file": "pages/destinations/cebu-city/carbon-market.php"
+    },
+    {
+      "id": "casa-gorordo",
+      "name": "Casa Gorordo",
+      "category": "Cebu City",
+      "location": "Cebu City Near Colon Street",
+      "coordinates": {
+        "latitude": 10.295,
+        "longitude": 123.902
+      },
+      "highlight": "Ancestral House 19th-century museum",
+      "experience": "Historical & Cultural Artifacts & heritage",
+      "travel_style": "Quick Stop Usually 1 hour",
+      "description": "A preserved 19th-century ancestral house that offers a glimpse into the life and culture of a prominent Cebuano family.",
+      "overview": [
+        "Casa Gorordo is a historic house museum located in Cebu City. It was originally the residence of the Gorordo family, a prominent Cebuano clan, and was built in the 19th century.",
+        "The house is a classic example of Filipino colonial architecture, featuring a mix of indigenous, Spanish, and Chinese influences. Inside, you can see original furniture, household items, and personal belongings of the family, giving you a glimpse into the life of the elite during that era.",
+        "The museum also hosts rotating art exhibits and cultural events. It is a peaceful and educational stop for anyone interested in Cebu's history."
+      ],
+      "activities": [
+        "Historical & Cultural Artifacts & heritage",
+        "Ancestral House 19th-century museum"
+      ],
+      "entrance_fee": "? Yes, there is a small entrance fee (around ₱50) for adults",
+      "operating_hours": null,
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing 15-30 min Take a taxi or Grab to Casa Gorordo. Ask the driver to drop you at the museum entrance on Lopez Jaena Street."
+        },
+        {
+          "option": "Walking Tour",
+          "details": "🚶 Walking Tour If you are exploring downtown Cebu, you can easily walk here from Fort San Pedro or the Basilica."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Casa Gorordo on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Casa Gorordo is within walking distance of the Basilica del Santo Niño and Magellan's Cross. You can easily combine these three heritage sites into a single walking tour. Check for guided tours at the museum for a deeper understanding of the house's history."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Casa+Gorordo+Museum+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/casa-gorordo.php",
+      "source_file": "pages/destinations/cebu-city/casa-gorordo.php"
+    },
+    {
+      "id": "cebu-cathedral",
+      "name": "Cebu Metropolitan Cathedral",
+      "category": "Cebu City",
+      "location": "Downtown Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historic archdiocesan cathedral Destination feature",
+      "experience": "Religious Heritage Explore local attractions",
+      "travel_style": "Faith & heritage Plan ahead for your visit",
+      "description": "A historic Catholic cathedral in downtown Cebu and an important religious landmark near the city's heritage district.",
+      "overview": [
+        "The Cebu Metropolitan Cathedral stands in the historic center of Cebu City. It serves as the seat of the Archdiocese of Cebu and remains an active place of worship.",
+        "A historic Catholic cathedral in downtown Cebu and an important religious landmark near the city's heritage district.",
+        "Respect worshippers and confirm service times before arrival."
+      ],
+      "activities": [
+        "Religious Heritage Explore local attractions",
+        "Historic archdiocesan cathedral Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Downtown Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Downtown Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Cebu Metropolitan Cathedral on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Respect worshippers and confirm service times before arrival."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cebu+Metropolitan+Cathedral",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/cebu-cathedral.php",
+      "source_file": "pages/destinations/cebu-city/cebu-cathedral.php"
+    },
+    {
+      "id": "cebu-heritage-monument",
+      "name": "Cebu Heritage Monument",
+      "category": "Cebu City",
+      "location": "Parian, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historical sculptural monument Destination feature",
+      "experience": "History & Public Art Explore local attractions",
+      "travel_style": "Heritage walk Plan ahead for your visit",
+      "description": "A large sculptural tableau in the Parian district depicting important episodes and figures from Cebu's history.",
+      "overview": [
+        "The Cebu Heritage Monument is located in the historic Parian area. Its sculptural scenes portray significant moments in Cebuano history and provide an outdoor introduction to the city's past.",
+        "A large sculptural tableau in the Parian district depicting important episodes and figures from Cebu's history.",
+        "Combine the stop with nearby Parian landmarks."
+      ],
+      "activities": [
+        "History & Public Art Explore local attractions",
+        "Historical sculptural monument Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Parian, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Parian, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Cebu Heritage Monument on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Combine the stop with nearby Parian landmarks."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cebu+Heritage+Monument",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/cebu-heritage-monument.php",
+      "source_file": "pages/destinations/cebu-city/cebu-heritage-monument.php"
+    },
+    {
+      "id": "cebu-ocean-park",
+      "name": "Cebu Ocean Park",
+      "category": "Cebu City",
+      "location": "Cebu City, near SM Seaside Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Marine exhibits and family activities Destination feature",
+      "experience": "Marine Life & Family Attraction Explore local attractions",
+      "travel_style": "Family & educational visit Plan ahead for your visit",
+      "description": "A large marine attraction beside the Cebu waterfront where visitors can discover sea life through themed aquariums and educational exhibits.",
+      "overview": [
+        "Cebu Ocean Park is located in the South Road Properties area of Cebu City, near SM Seaside. Its exhibits introduce visitors to marine habitats and aquatic animals, making it a popular family destination.",
+        "A large marine attraction beside the Cebu waterfront where visitors can discover sea life through themed aquariums and educational exhibits.",
+        "Check current exhibits and admission details before travelling."
+      ],
+      "activities": [
+        "Marine Life & Family Attraction Explore local attractions",
+        "Marine exhibits and family activities Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", and exhibit schedules",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Cebu City, near SM Seaside. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Cebu City, near SM Seaside. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Cebu Ocean Park on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check current exhibits and admission details before travelling."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cebu+Ocean+Park+Cebu+City",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/cebu-ocean-park.php",
+      "source_file": "pages/destinations/cebu-city/cebu-ocean-park.php"
+    },
+    {
+      "id": "cebu-provincial-capitol",
+      "name": "Cebu Provincial Capitol",
+      "category": "Cebu City",
+      "location": "Osmeña Boulevard, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Provincial government landmark Destination feature",
+      "experience": "Civic Architecture Explore local attractions",
+      "travel_style": "Architecture & city sightseeing Plan ahead for your visit",
+      "description": "An iconic government building in Cebu City, known for its prominent neoclassical design and role in provincial administration.",
+      "overview": [
+        "The Cebu Provincial Capitol is located along Osmeña Boulevard. The building is an important civic landmark and a recognizable example of monumental public architecture in the city.",
+        "An iconic government building in Cebu City, known for its prominent neoclassical design and role in provincial administration.",
+        "Treat the site as an active government facility and follow security rules."
+      ],
+      "activities": [
+        "Civic Architecture Explore local attractions",
+        "Provincial government landmark Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Osmeña Boulevard, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Osmeña Boulevard, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Cebu Provincial Capitol on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Treat the site as an active government facility and follow security rules."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cebu+Provincial+Capitol+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/cebu-provincial-capitol.php",
+      "source_file": "pages/destinations/cebu-city/cebu-provincial-capitol.php"
+    },
+    {
+      "id": "central-bloc",
+      "name": "Central Bloc",
+      "category": "Cebu City",
+      "location": "Cebu IT Park, Lahug, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Retail and lifestyle complex Destination feature",
+      "experience": "Shopping & Lifestyle Explore local attractions",
+      "travel_style": "Dining & city leisure Plan ahead for your visit",
+      "description": "A modern retail and lifestyle complex in Cebu IT Park, convenient for dining, shopping, and exploring the business district.",
+      "overview": [
+        "Central Bloc is part of the Cebu IT Park area in Lahug. Its shops and dining options serve office workers, residents, and visitors exploring the district.",
+        "A modern retail and lifestyle complex in Cebu IT Park, convenient for dining, shopping, and exploring the business district.",
+        "Store schedules and offerings vary by tenant."
+      ],
+      "activities": [
+        "Shopping & Lifestyle Explore local attractions",
+        "Retail and lifestyle complex Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "because they may differ",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Cebu IT Park, Lahug, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Cebu IT Park, Lahug, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Central Bloc on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Store schedules and offerings vary by tenant."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Central+Bloc+Cebu+IT+Park",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/central-bloc.php",
+      "source_file": "pages/destinations/cebu-city/central-bloc.php"
+    },
+    {
+      "id": "colon-street",
+      "name": "Colon Street",
+      "category": "Cebu City",
+      "location": "Downtown Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historic commercial street Destination feature",
+      "experience": "Historic Street & Heritage Explore local attractions",
+      "travel_style": "Heritage & city walk Plan ahead for your visit",
+      "description": "A historic downtown street often recognized as one of the oldest streets in the Philippines, surrounded by commerce and heritage landmarks.",
+      "overview": [
+        "Colon Street runs through the historic center of Cebu City. Its surrounding district reflects layers of urban history, commerce, transport, and everyday city life.",
+        "A historic downtown street often recognized as one of the oldest streets in the Philippines, surrounded by commerce and heritage landmarks.",
+        "Stay aware of traffic and use safe pedestrian routes."
+      ],
+      "activities": [
+        "Historic Street & Heritage Explore local attractions",
+        "Historic commercial street Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Downtown Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Downtown Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Colon Street on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Stay aware of traffic and use safe pedestrian routes."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Colon+Street+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/colon-street.php",
+      "source_file": "pages/destinations/cebu-city/colon-street.php"
+    },
+    {
+      "id": "il-corso",
+      "name": "IL Corso",
+      "category": "Cebu City",
+      "location": "South Road Properties, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Waterfront dining and promenade Destination feature",
+      "experience": "Waterfront & Dining Explore local attractions",
+      "travel_style": "Relaxed outdoor visit Plan ahead for your visit",
+      "description": "A waterfront lifestyle destination in South Road Properties known for dining, open spaces, and views across the channel.",
+      "overview": [
+        "IL Corso is located along the Cebu South Coastal Road corridor in South Road Properties. Its waterfront setting makes it a relaxed stop for food, leisure, and views.",
+        "A waterfront lifestyle destination in South Road Properties known for dining, open spaces, and views across the channel.",
+        "Check weather and restaurant schedules before your trip."
+      ],
+      "activities": [
+        "Waterfront & Dining Explore local attractions",
+        "Waterfront dining and promenade Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "before travelling",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to South Road Properties, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving South Road Properties, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find IL Corso on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check weather and restaurant schedules before your trip."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=IL+Corso+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/il-corso.php",
+      "source_file": "pages/destinations/cebu-city/il-corso.php"
+    },
+    {
+      "id": "jesuit-house",
+      "name": "Jesuit House",
+      "category": "Cebu City",
+      "location": "Parian, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historic house and heritage site Destination feature",
+      "experience": "Museum & Heritage Architecture Explore local attractions",
+      "travel_style": "History & architecture Plan ahead for your visit",
+      "description": "A historic house in the Parian district associated with Cebu's early trading and religious history.",
+      "overview": [
+        "The Jesuit House is a heritage property in downtown Cebu's Parian area. Its preserved architecture and exhibits provide insight into the city's historic built environment.",
+        "A historic house in the Parian district associated with Cebu's early trading and religious history.",
+        "Confirm visitor access before making a special trip."
+      ],
+      "activities": [
+        "Museum & Heritage Architecture Explore local attractions",
+        "Historic house and heritage site Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "and visitor access",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Parian, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Parian, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Jesuit House on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm visitor access before making a special trip."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jesuit+House+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/jesuit-house.php",
+      "source_file": "pages/destinations/cebu-city/jesuit-house.php"
+    },
+    {
+      "id": "jumalon-butterfly-sanctuary",
+      "name": "Jumalon Butterfly Sanctuary",
+      "category": "Cebu City",
+      "location": "Basak, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Butterfly conservation and art Destination feature",
+      "experience": "Nature & Conservation Explore local attractions",
+      "travel_style": "Nature & education Plan ahead for your visit",
+      "description": "A small nature and art attraction dedicated to butterflies, conservation, and the collection of butterfly-inspired artworks.",
+      "overview": [
+        "Jumalon Butterfly Sanctuary is in the Basak area of Cebu City. It is associated with butterfly conservation and displays that connect natural history with art.",
+        "A small nature and art attraction dedicated to butterflies, conservation, and the collection of butterfly-inspired artworks.",
+        "Arrange your visit in advance and follow conservation guidelines."
+      ],
+      "activities": [
+        "Nature & Conservation Explore local attractions",
+        "Butterfly conservation and art Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Basak, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Basak, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Jumalon Butterfly Sanctuary on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Arrange your visit in advance and follow conservation guidelines."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jumalon+Butterfly+Sanctuary+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/jumalon-butterfly-sanctuary.php",
+      "source_file": "pages/destinations/cebu-city/jumalon-butterfly-sanctuary.php"
+    },
+    {
+      "id": "magellan-cross",
+      "name": "Magellan's Cross",
+      "category": "Cebu City",
+      "location": "Cebu City Beside the Basilica del Santo Niño",
+      "coordinates": {
+        "latitude": 10.2936,
+        "longitude": 123.8995
+      },
+      "highlight": "Historic Landmark Planted in 1521",
+      "experience": "Cultural & Religious A symbol of faith",
+      "travel_style": "Quick Stop Usually 15-30 mins",
+      "description": "A historic landmark planted by Ferdinand Magellan in 1521, symbolizing the birth of Christianity in the Philippines.",
+      "overview": [
+        "Magellan's Cross is a Christian cross planted by Portuguese and Spanish explorers, as ordered by Ferdinand Magellan, upon arriving in Cebu in the Philippines on April 21, 1521.",
+        "The original cross is encased in another wooden cross (made of tindalo wood) to protect it from people who chipped away pieces of the original as souvenirs, believing it to have miraculous powers.",
+        "The cross is housed in a small chapel right next to the Basilica Minore del Santo Niño. The ceiling of the chapel features a beautiful mural depicting the baptism of Rajah Humabon and his wife, Queen Juana."
+      ],
+      "activities": [
+        "Cultural & Religious A symbol of faith",
+        "Historic Landmark Planted in 1521"
+      ],
+      "entrance_fee": "? No, entrance is free",
+      "operating_hours": null,
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing 15-30 min Take a taxi or Grab to the Basilica del Santo Niño. The cross is located immediately to the left of the church entrance."
+        },
+        {
+          "option": "Walking Tour",
+          "details": "🚶 Walking Tour If you are exploring downtown Cebu, you can easily walk here from Fort San Pedro or Colon Street."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Magellan's Cross on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Combine your visit here with the Basilica del Santo Niño and Fort San Pedro, as they are all within walking distance of each other. Be prepared for crowds and vendors selling candles and souvenirs outside."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Magellans+Cross+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/magellan-cross.php",
+      "source_file": "pages/destinations/cebu-city/magellan-cross.php"
+    },
+    {
+      "id": "museo-sugbo",
+      "name": "Museo Sugbo",
+      "category": "Cebu City",
+      "location": "M.J. Cuenco Avenue area, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Cebu history museum Destination feature",
+      "experience": "Museum & History Explore local attractions",
+      "travel_style": "Educational & cultural visit Plan ahead for your visit",
+      "description": "A Cebu museum housed in a historic former provincial jail, presenting stories and artifacts connected to Cebu's past.",
+      "overview": [
+        "Museo Sugbo is located in the former Cebu Provincial Detention and Rehabilitation Center complex near the North Reclamation Area. Its galleries explore Cebu's history through collections and exhibits.",
+        "A Cebu museum housed in a historic former provincial jail, presenting stories and artifacts connected to Cebu's past.",
+        "Verify current museum access and exhibit schedules."
+      ],
+      "activities": [
+        "Museum & History Explore local attractions",
+        "Cebu history museum Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to M.J. Cuenco Avenue area, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving M.J. Cuenco Avenue area, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Museo Sugbo on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Verify current museum access and exhibit schedules."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Museo+Sugbo+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/museo-sugbo.php",
+      "source_file": "pages/destinations/cebu-city/museo-sugbo.php"
+    },
+    {
+      "id": "san-pedro",
+      "name": "Fort San Pedro",
+      "category": "Cebu City",
+      "location": "Cebu City Near Pier 1, downtown",
+      "coordinates": {
+        "latitude": 10.2928,
+        "longitude": 123.9058
+      },
+      "highlight": "Spanish Fort Oldest triangular bastion",
+      "experience": "Historical & Gardens Museum & photo spot",
+      "travel_style": "Quick Stop Usually 30-60 mins",
+      "description": "A historic Spanish military fort built in 1738, now a peaceful garden and museum in the heart of Cebu City.",
+      "overview": [
+        "Fuerte de San Pedro, or Fort San Pedro, is a military defense structure built by the Spanish under the command of Miguel López de Legazpi. It is the oldest triangular bastion fort in the Philippines.",
+        "Originally built of wood in 1565, it was later replaced by a stone structure in 1738 to repel Muslim raiders. Over the centuries, it served as a military barracks, a prison, and even a zoo.",
+        "Today, it is a peaceful walled garden featuring a small museum that houses Spanish artifacts, paintings, and documents. The fort offers a quiet escape from the bustling city and beautiful views of the port."
+      ],
+      "activities": [
+        "Historical & Gardens Museum & photo spot",
+        "Spanish Fort Oldest triangular bastion"
+      ],
+      "entrance_fee": "? Yes, there is a small entrance fee (around ₱30) for adults",
+      "operating_hours": "? The fort is typically open from 8:00 AM to 10:00 PM daily",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing 15-30 min Take a taxi or Grab to Plaza Independencia. The entrance to the fort is right next to the plaza."
+        },
+        {
+          "option": "Walking Tour",
+          "details": "🚶 Walking Tour If you are visiting the Basilica or Magellan's Cross, you can easily walk to the fort in about 10 minutes."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Fort San Pedro on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Combine your visit here with the Basilica del Santo Niño and Magellan's Cross, as they are all within walking distance. Visit in the late afternoon when the sun is less intense, making it perfect for photos."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Fort+San+Pedro+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/san-pedro.php",
+      "source_file": "pages/destinations/cebu-city/san-pedro.php"
+    },
+    {
+      "id": "sm-city-cebu",
+      "name": "SM City Cebu",
+      "category": "Cebu City",
+      "location": "North Reclamation Area, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Retail and dining destination Destination feature",
+      "experience": "Shopping & Entertainment Explore local attractions",
+      "travel_style": "Shopping & convenience Plan ahead for your visit",
+      "description": "A major mall in the North Reclamation Area offering shopping, dining, services, and entertainment for residents and visitors.",
+      "overview": [
+        "SM City Cebu is located in the North Reclamation Area, close to Cebu Port and other central city destinations. It is a convenient stop for shopping, meals, and everyday services.",
+        "A major mall in the North Reclamation Area offering shopping, dining, services, and entertainment for residents and visitors.",
+        "Traffic around the mall can be busy during peak periods."
+      ],
+      "activities": [
+        "Shopping & Entertainment Explore local attractions",
+        "Retail and dining destination Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to North Reclamation Area, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving North Reclamation Area, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find SM City Cebu on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Traffic around the mall can be busy during peak periods."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=SM+City+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/sm-city-cebu.php",
+      "source_file": "pages/destinations/cebu-city/sm-city-cebu.php"
+    },
+    {
+      "id": "sm-seaside",
+      "name": "SM Seaside City Cebu",
+      "category": "Cebu City",
+      "location": "South Road Properties, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Shopping, dining, and leisure Destination feature",
+      "experience": "Shopping & Entertainment Explore local attractions",
+      "travel_style": "Shopping & family outing Plan ahead for your visit",
+      "description": "A major shopping and lifestyle destination in Cebu's South Road Properties, with retail, dining, entertainment, and family activities.",
+      "overview": [
+        "SM Seaside City Cebu stands in the South Road Properties district. The complex brings together shopping, restaurants, leisure attractions, and event spaces in one large mall.",
+        "A major shopping and lifestyle destination in Cebu's South Road Properties, with retail, dining, entertainment, and family activities.",
+        "The mall is large, so plan where to meet your group."
+      ],
+      "activities": [
+        "Shopping & Entertainment Explore local attractions",
+        "Shopping, dining, and leisure Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "and event schedules",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to South Road Properties, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving South Road Properties, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find SM Seaside City Cebu on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "The mall is large, so plan where to meet your group."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=SM+Seaside+City+Cebu+Philippines",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/sm-seaside.php",
+      "source_file": "pages/destinations/cebu-city/sm-seaside.php"
+    },
+    {
+      "id": "taboan-market",
+      "name": "Taboan Market",
+      "category": "Cebu City",
+      "location": "Pahina Central, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Dried fish and local food market Destination feature",
+      "experience": "Local Market & Food Explore local attractions",
+      "travel_style": "Food shopping & culture Plan ahead for your visit",
+      "description": "A Cebu market known especially for dried fish and other local food products, offering a distinctive glimpse of Cebuano market culture.",
+      "overview": [
+        "Taboan Market is in the Pahina Central area of Cebu City. It is widely associated with dried fish products, local ingredients, and food shopping.",
+        "A Cebu market known especially for dried fish and other local food products, offering a distinctive glimpse of Cebuano market culture.",
+        "Pack food products securely and check travel restrictions."
+      ],
+      "activities": [
+        "Local Market & Food Explore local attractions",
+        "Dried fish and local food market Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Pahina Central, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Pahina Central, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Taboan Market on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Pack food products securely and check travel restrictions."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Taboan+Market+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/taboan-market.php",
+      "source_file": "pages/destinations/cebu-city/taboan-market.php"
+    },
+    {
+      "id": "temple-leah",
+      "name": "Temple of Leah",
+      "category": "Cebu City",
+      "location": "Busay, Cebu City In the mountains above the city",
+      "coordinates": {
+        "latitude": 10.354,
+        "longitude": 123.864
+      },
+      "highlight": "Roman Architecture Museum & monument",
+      "experience": "Panoramic Views Overlooking Cebu City",
+      "travel_style": "Cultural Trip Sightseeing & photography",
+      "description": "A grand Roman-inspired landmark with panoramic views over Cebu City, built as a symbol of undying love.",
+      "overview": [
+        "The Temple of Leah is a majestic, Roman-inspired architectural landmark located in the hills of Busay, Cebu City. It was built by Teodorico Adarna as a symbol of his undying love and devotion to his late wife, Leah.",
+        "Often referred to as the \"Taj Mahal of Cebu,\" the temple features grand staircases, towering columns, intricate statues, and a museum filled with the family's personal belongings and art collection.",
+        "Aside from its historical and architectural significance, the temple offers sweeping panoramic views of Cebu City and the surrounding mountains, making it a favorite spot for photographers and sightseers."
+      ],
+      "activities": [
+        "Panoramic Views Overlooking Cebu City",
+        "Roman Architecture Museum & monument"
+      ],
+      "entrance_fee": "s and parking are usually paid in cash",
+      "operating_hours": "exploring the temple grounds, taking photos, and visiting the museum",
+      "transportation": [
+        {
+          "option": "Habal-Habal or Taxi",
+          "details": "🚌 Habal-Habal or Taxi ~30-45 mins From JY Square Mall in Lahug, take a taxi or a habal-habal (motorcycle taxi) straight to the temple. This is the fastest and most direct way."
+        },
+        {
+          "option": "Private Vehicle",
+          "details": "🚗 Private Vehicle Drive up through the scenic Transcentral Highway. There is parking available on-site, though it can get busy during weekends."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Temple of Leah on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Visit in the late afternoon (around 3:00–5:00 PM) to catch the sunset over the city. It can get chilly and windy up in the mountains, so bringing a light jacket is a good idea. Prepare for an entrance fee."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Temple+of+Leah+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/temple-leah.php",
+      "source_file": "pages/destinations/cebu-city/temple-leah.php"
+    },
+    {
+      "id": "yap-sandiego-house",
+      "name": "Yap-Sandiego Ancestral House",
+      "category": "Cebu City",
+      "location": "Parian, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historic ancestral house Destination feature",
+      "experience": "Ancestral House & Heritage Explore local attractions",
+      "travel_style": "Heritage & architecture Plan ahead for your visit",
+      "description": "A preserved ancestral house in Cebu's Parian district that offers a glimpse into domestic life during an earlier period.",
+      "overview": [
+        "The Yap-Sandiego Ancestral House is one of the historic homes in the Parian area. Its traditional structure and collections help visitors imagine family and community life in old Cebu.",
+        "A preserved ancestral house in Cebu's Parian district that offers a glimpse into domestic life during an earlier period.",
+        "Check access arrangements because this is a historic property."
+      ],
+      "activities": [
+        "Ancestral House & Heritage Explore local attractions",
+        "Historic ancestral house Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "and admission arrangements before going",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Parian, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Parian, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Yap-Sandiego Ancestral House on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check access arrangements because this is a historic property."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yap-Sandiego+Ancestral+House+Cebu",
+      "detail_url": "/Cebu/pages/destinations/cebu-city/yap-sandiego-house.php",
+      "source_file": "pages/destinations/cebu-city/yap-sandiego-house.php"
+    },
+    {
+      "id": "buwakan-ni-alejandra",
+      "name": "Buwakan ni Alejandra",
+      "category": "Highlands Viewpoints",
+      "location": "Balamban highlands, Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Landscaped flower garden Destination feature",
+      "experience": "Flower Garden & Countryside Explore local attractions",
+      "travel_style": "Nature & photography Plan ahead for your visit",
+      "description": "A landscaped flower garden in Balamban known for colorful plant displays and a cool highland setting.",
+      "overview": [
+        "Buwakan ni Alejandra is in the mountain area of Balamban, western Cebu. It is a garden destination where visitors can enjoy landscaped flower beds and countryside views.",
+        "A landscaped flower garden in Balamban known for colorful plant displays and a cool highland setting.",
+        "Check road conditions and garden status before travelling."
+      ],
+      "activities": [
+        "Flower Garden & Countryside Explore local attractions",
+        "Landscaped flower garden Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Balamban highlands, Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Balamban highlands, Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Buwakan ni Alejandra on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check road conditions and garden status before travelling."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Buwakan+ni+Alejandra+Balamban+Cebu",
+      "detail_url": "/Cebu/pages/destinations/highlands-viewpoints/buwakan-ni-alejandra.php",
+      "source_file": "pages/destinations/highlands-viewpoints/buwakan-ni-alejandra.php"
+    },
+    {
+      "id": "mount-kan-irag",
+      "name": "Mount Kan-Irag",
+      "category": "Highlands Viewpoints",
+      "location": "Cebu City highlands Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Mountain hiking and viewpoints Destination feature",
+      "experience": "Mountain & Hiking Explore local attractions",
+      "travel_style": "Outdoor adventure Plan ahead for your visit",
+      "description": "A mountain hiking destination above Cebu City, known for forested trails and views across the surrounding highlands.",
+      "overview": [
+        "Mount Kan-Irag, also called Sirao Peak in some local references, is in the highlands north of Cebu City. Hiking routes and trail conditions can vary, so local guidance is important.",
+        "A mountain hiking destination above Cebu City, known for forested trails and views across the surrounding highlands.",
+        "Do not hike alone or during unsafe weather."
+      ],
+      "activities": [
+        "Mountain & Hiking Explore local attractions",
+        "Mountain hiking and viewpoints Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Cebu City highlands. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Cebu City highlands. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Mount Kan-Irag on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Do not hike alone or during unsafe weather."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mount+Kan-Irag+Cebu",
+      "detail_url": "/Cebu/pages/destinations/highlands-viewpoints/mount-kan-irag.php",
+      "source_file": "pages/destinations/highlands-viewpoints/mount-kan-irag.php"
+    },
+    {
+      "id": "sirao-flower-garden",
+      "name": "Sirao Flower Garden",
+      "category": "Highlands Viewpoints",
+      "location": "Busay, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Hillside flower garden Destination feature",
+      "experience": "Flower Garden & Viewpoint Explore local attractions",
+      "travel_style": "Photography & nature Plan ahead for your visit",
+      "description": "A hillside garden in Cebu's Busay area known for colorful flower displays and mountain scenery.",
+      "overview": [
+        "Sirao Flower Garden is in the highlands of Cebu City. Its landscaped flower areas and viewpoints make it a popular photo stop on a Busay day trip.",
+        "A hillside garden in Cebu's Busay area known for colorful flower displays and mountain scenery.",
+        "Expect seasonal changes in the flower displays."
+      ],
+      "activities": [
+        "Flower Garden & Viewpoint Explore local attractions",
+        "Hillside flower garden Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Busay, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Busay, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Sirao Flower Garden on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Expect seasonal changes in the flower displays."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sirao+Flower+Garden+Cebu",
+      "detail_url": "/Cebu/pages/destinations/highlands-viewpoints/sirao-flower-garden.php",
+      "source_file": "pages/destinations/highlands-viewpoints/sirao-flower-garden.php"
+    },
+    {
+      "id": "taoist-temple",
+      "name": "Taoist Temple",
+      "category": "Highlands Viewpoints",
+      "location": "Beverly Hills, Lahug, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Taoist temple and city viewpoint Destination feature",
+      "experience": "Religious Architecture & Viewpoint Explore local attractions",
+      "travel_style": "Culture & architecture Plan ahead for your visit",
+      "description": "A distinctive Taoist temple in Beverly Hills, Cebu City, known for its traditional architectural details and elevated city views.",
+      "overview": [
+        "The Cebu Taoist Temple is located in the Beverly Hills subdivision in Lahug. It is a place of worship as well as an architectural and cultural landmark.",
+        "A distinctive Taoist temple in Beverly Hills, Cebu City, known for its traditional architectural details and elevated city views.",
+        "Respect worship areas and follow all posted rules."
+      ],
+      "activities": [
+        "Religious Architecture & Viewpoint Explore local attractions",
+        "Taoist temple and city viewpoint Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Beverly Hills, Lahug, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Beverly Hills, Lahug, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Taoist Temple on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Respect worship areas and follow all posted rules."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cebu+Taoist+Temple",
+      "detail_url": "/Cebu/pages/destinations/highlands-viewpoints/taoist-temple.php",
+      "source_file": "pages/destinations/highlands-viewpoints/taoist-temple.php"
+    },
+    {
+      "id": "tops-cebu",
+      "name": "TOPS Cebu",
+      "category": "Highlands Viewpoints",
+      "location": "Busay, Cebu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Elevated city viewpoint Destination feature",
+      "experience": "Highland Viewpoint Explore local attractions",
+      "travel_style": "Scenic & evening visit Plan ahead for your visit",
+      "description": "A hilltop viewing destination in Busay offering broad views over Cebu City and the surrounding coastline.",
+      "overview": [
+        "TOPS Cebu is in the Busay highlands above Cebu City. Its elevated setting makes it a popular place to view the city, especially around sunset and after dark.",
+        "A hilltop viewing destination in Busay offering broad views over Cebu City and the surrounding coastline.",
+        "Check transport and weather before heading to the highlands."
+      ],
+      "activities": [
+        "Highland Viewpoint Explore local attractions",
+        "Elevated city viewpoint Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", admission, and transport arrangements",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Busay, Cebu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Busay, Cebu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find TOPS Cebu on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check transport and weather before heading to the highlands."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TOPS+Cebu+Busay",
+      "detail_url": "/Cebu/pages/destinations/highlands-viewpoints/tops-cebu.php",
+      "source_file": "pages/destinations/highlands-viewpoints/tops-cebu.php"
+    },
+    {
+      "id": "caohagan-island",
+      "name": "Caohagan Island",
+      "category": "Mactan Islands",
+      "location": "Olango island group, near Mactan Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Small island community Destination feature",
+      "experience": "Island & Community Tourism Explore local attractions",
+      "travel_style": "Island & community experience Plan ahead for your visit",
+      "description": "A small island near Olango known for its coastal scenery, fishing community, and simple island experiences.",
+      "overview": [
+        "Caohagan Island is part of the Olango island group off Mactan. Visitors come for its coastal environment and community-based island experience.",
+        "A small island near Olango known for its coastal scenery, fishing community, and simple island experiences.",
+        "Confirm boat arrangements and available facilities in advance."
+      ],
+      "activities": [
+        "Island & Community Tourism Explore local attractions",
+        "Small island community Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Olango island group, near Mactan. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Olango island group, near Mactan. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Caohagan Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm boat arrangements and available facilities in advance."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caohagan+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/caohagan-island.php",
+      "source_file": "pages/destinations/mactan-islands/caohagan-island.php"
+    },
+    {
+      "id": "mactan-newtown",
+      "name": "Mactan Newtown",
+      "category": "Mactan Islands",
+      "location": "Punta Engaño, Lapu-Lapu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Mixed-use township Destination feature",
+      "experience": "Lifestyle & Waterfront Explore local attractions",
+      "travel_style": "Dining & leisure Plan ahead for your visit",
+      "description": "A mixed-use township in Lapu-Lapu City with dining, retail, accommodation, and access to a beachfront area.",
+      "overview": [
+        "Mactan Newtown is in the Punta Engaño area of Lapu-Lapu City. The township combines residential, business, hospitality, and leisure facilities.",
+        "A mixed-use township in Lapu-Lapu City with dining, retail, accommodation, and access to a beachfront area.",
+        "Confirm beach and facility access rules before visiting."
+      ],
+      "activities": [
+        "Lifestyle & Waterfront Explore local attractions",
+        "Mixed-use township Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Punta Engaño, Lapu-Lapu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Punta Engaño, Lapu-Lapu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Mactan Newtown on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm beach and facility access rules before visiting."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mactan+Newtown+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/mactan-newtown.php",
+      "source_file": "pages/destinations/mactan-islands/mactan-newtown.php"
+    },
+    {
+      "id": "mactan-shrine",
+      "name": "Mactan Shrine",
+      "category": "Mactan Islands",
+      "location": "Punta Engaño, Lapu-Lapu City Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Battle of Mactan memorial Destination feature",
+      "experience": "History & Heritage Explore local attractions",
+      "travel_style": "History & coastal sightseeing Plan ahead for your visit",
+      "description": "A seaside historical park in Lapu-Lapu City commemorating the Battle of Mactan and the local hero Lapulapu.",
+      "overview": [
+        "Mactan Shrine is in the Punta Engaño area of Lapu-Lapu City. The site commemorates the 1521 Battle of Mactan and includes monuments connected with the historic event.",
+        "A seaside historical park in Lapu-Lapu City commemorating the Battle of Mactan and the local hero Lapulapu.",
+        "Learn about the event from multiple historical perspectives."
+      ],
+      "activities": [
+        "History & Heritage Explore local attractions",
+        "Battle of Mactan memorial Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Punta Engaño, Lapu-Lapu City. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Punta Engaño, Lapu-Lapu City. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Mactan Shrine on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Learn about the event from multiple historical perspectives."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mactan+Shrine+Lapu-Lapu+City",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/mactan-shrine.php",
+      "source_file": "pages/destinations/mactan-islands/mactan-shrine.php"
+    },
+    {
+      "id": "nalusuan-island",
+      "name": "Nalusuan Island",
+      "category": "Mactan Islands",
+      "location": "Mactan, Cebu Just off the coast of Mactan",
+      "coordinates": {
+        "latitude": 10.25,
+        "longitude": 124.0
+      },
+      "highlight": "Marine Sanctuary Vibrant coral reefs",
+      "experience": "Snorkeling & Day Trip Island resort",
+      "travel_style": "Day Trip Boat ride from Mactan",
+      "description": "A tiny man-made island off the coast of Mactan, famous for its well-protected marine sanctuary and vibrant coral reefs.",
+      "overview": [
+        "Nalusuan Island is a tiny, man-made island resort located in the Mactan Channel, just off the coast of Mactan. Despite its small size, it is a popular destination for day trips and snorkeling.",
+        "The island is surrounded by a protected marine sanctuary, which has helped preserve its vibrant coral reefs and abundant marine life. This makes it one of the best snorkeling spots near Cebu City.",
+        "You can visit Nalusuan as a day trip, usually arranged through a local tour operator or directly at the resort's port in Mactan."
+      ],
+      "activities": [
+        "Snorkeling & Day Trip Island resort",
+        "Marine Sanctuary Vibrant coral reefs"
+      ],
+      "entrance_fee": "s, rentals, and food",
+      "operating_hours": null,
+      "transportation": [
+        {
+          "option": "Boat from Mactan",
+          "details": "🚤 Boat from Mactan 20-30 mins Take a short outrigger boat from the Nalusuan Island Resort's port in Mactan. Transfers are usually included in the day trip package."
+        },
+        {
+          "option": "Taxi to Mactan Port",
+          "details": "🚕 Taxi to Mactan Port From Cebu City or Mactan Airport, take a taxi to the resort's port area in Mactan. It is about 30-45 minutes from the city."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Nalusuan Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Bring your own snorkeling gear if you have it, as rental equipment can be limited. Also, check the tide schedule; at high tide, the small beach can be almost completely submerged."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Nalusuan+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/nalusuan-island.php",
+      "source_file": "pages/destinations/mactan-islands/nalusuan-island.php"
+    },
+    {
+      "id": "olango-island",
+      "name": "Olango Island",
+      "category": "Mactan Islands",
+      "location": "Off the eastern coast of Mactan Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Wildlife sanctuary and wetlands Destination feature",
+      "experience": "Island & Wildlife Explore local attractions",
+      "travel_style": "Nature & island visit Plan ahead for your visit",
+      "description": "An island destination east of Mactan known for coastal communities, wetlands, and migratory bird habitat.",
+      "overview": [
+        "Olango Island lies off the eastern coast of Mactan. Its wildlife sanctuary is an important stopover for migratory waterbirds and a destination for nature-focused visitors.",
+        "An island destination east of Mactan known for coastal communities, wetlands, and migratory bird habitat.",
+        "Confirm boat services and sanctuary access before departure."
+      ],
+      "activities": [
+        "Island & Wildlife Explore local attractions",
+        "Wildlife sanctuary and wetlands Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Off the eastern coast of Mactan. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Off the eastern coast of Mactan. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Olango Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm boat services and sanctuary access before departure."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Olango+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/olango-island.php",
+      "source_file": "pages/destinations/mactan-islands/olango-island.php"
+    },
+    {
+      "id": "sulpa-island",
+      "name": "Sulpa Island",
+      "category": "Mactan Islands",
+      "location": "Olango island group, near Mactan Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Small coastal island Destination feature",
+      "experience": "Island & Coastal Nature Explore local attractions",
+      "travel_style": "Island & nature visit Plan ahead for your visit",
+      "description": "A small island in the Olango group offering a quiet coastal setting best explored with locally arranged boat transport.",
+      "overview": [
+        "Sulpa Island is among the small islands off Mactan and Olango. Its appeal is its coastal landscape and island atmosphere rather than large-scale visitor facilities.",
+        "A small island in the Olango group offering a quiet coastal setting best explored with locally arranged boat transport.",
+        "Plan transport and supplies before leaving the mainland."
+      ],
+      "activities": [
+        "Island & Coastal Nature Explore local attractions",
+        "Small coastal island Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Olango island group, near Mactan. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Olango island group, near Mactan. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Sulpa Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Plan transport and supplies before leaving the mainland."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sulpa+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/sulpa-island.php",
+      "source_file": "pages/destinations/mactan-islands/sulpa-island.php"
+    },
+    {
+      "id": "ten-thousand-roses",
+      "name": "10,000 Roses",
+      "category": "Mactan Islands",
+      "location": "Cordova, Mactan Island Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Illuminated rose installation Destination feature",
+      "experience": "Waterfront Attraction Explore local attractions",
+      "travel_style": "Evening & waterfront visit Plan ahead for your visit",
+      "description": "A waterfront attraction in Cordova known for its illuminated artificial rose installations and views across the water.",
+      "overview": [
+        "10,000 Roses is in Cordova, on Mactan Island. The attraction is known for its illuminated rose display, particularly after dark, and its waterfront setting.",
+        "A waterfront attraction in Cordova known for its illuminated artificial rose installations and views across the water.",
+        "Confirm the display is operating before making the trip."
+      ],
+      "activities": [
+        "Waterfront Attraction Explore local attractions",
+        "Illuminated rose installation Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", admission, and display status before travelling",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Cordova, Mactan Island. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Cordova, Mactan Island. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find 10,000 Roses on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm the display is operating before making the trip."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10,000+Roses+Cordova+Cebu",
+      "detail_url": "/Cebu/pages/destinations/mactan-islands/ten-thousand-roses.php",
+      "source_file": "pages/destinations/mactan-islands/ten-thousand-roses.php"
+    },
+    {
+      "id": "bantayan-island",
+      "name": "Bantayan Island",
+      "category": "North Cebu",
+      "location": "📍 Northern Cebu, Philippines",
+      "coordinates": {
+        "latitude": 11.1667,
+        "longitude": 123.7333
+      },
+      "highlight": null,
+      "experience": null,
+      "travel_style": null,
+      "description": "Discover white-sand beaches, crystal-clear waters, peaceful coastal villages, and unforgettable island adventures in northern Cebu.",
+      "overview": [
+        "Bantayan Island is a popular island destination in northern Cebu known for its beautiful beaches, laid-back atmosphere, and coastal scenery. It is a great option for travelers looking for a relaxing escape from the busy city.",
+        "The island includes the municipalities of Santa Fe, Bantayan, and Madridejos. Visitors can enjoy beach activities, explore local communities, try fresh seafood, and discover historic landmarks.",
+        "Most travelers reach the island by taking a bus or other land transport from Cebu City to Hagnaya Port, followed by a ferry to Santa Fe. Travel time depends on traffic, waiting time, and ferry schedules."
+      ],
+      "activities": [],
+      "entrance_fee": null,
+      "operating_hours": null,
+      "transportation": [
+        {
+          "option": "Bus to Hagnaya Port",
+          "details": "1 Bus to Hagnaya Port Mainland journey Travel to Cebu North Bus Terminal and look for a bus bound for Hagnaya Port. Journey time varies with traffic, stops, and the bus service you choose."
+        },
+        {
+          "option": "Ferry to Santa Fe Port",
+          "details": "2 Ferry to Santa Fe Port Sea crossing At Hagnaya Port, take a ferry serving the Santa Fe route. Confirm the latest departure times, fares, and passenger requirements with the ferry operator."
+        },
+        {
+          "option": "Explore Bantayan Island",
+          "details": "3 Explore Bantayan Island Local transport Once you arrive, arrange local transportation to your accommodation. Depending on your destination, options may include tricycles, motorcycles, or rented vehicles."
+        }
+      ],
+      "visitor_tips": [
+        "Check ferry schedules and weather conditions before leaving for Hagnaya Port. During busy holidays, arrive early and allow extra time for queues and boarding."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bantayan+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/bantayan-island.php",
+      "source_file": "pages/destinations/north-cebu/bantayan-island.php"
+    },
+    {
+      "id": "carnaza-island",
+      "name": "Carnaza Island",
+      "category": "North Cebu",
+      "location": "Off Daanbantayan, northern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Remote island and coves Destination feature",
+      "experience": "Island & Adventure Explore local attractions",
+      "travel_style": "Island adventure Plan ahead for your visit",
+      "description": "A remote island off northern Cebu known for rugged coastlines, coves, and a quieter island atmosphere.",
+      "overview": [
+        "Carnaza Island is off the northern tip of Cebu near Daanbantayan. Reaching it requires sea travel, and visitors should plan carefully around boat services and weather.",
+        "A remote island off northern Cebu known for rugged coastlines, coves, and a quieter island atmosphere.",
+        "Plan transport, supplies, and accommodation in advance."
+      ],
+      "activities": [
+        "Island & Adventure Explore local attractions",
+        "Remote island and coves Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Off Daanbantayan, northern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Off Daanbantayan, northern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Carnaza Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Plan transport, supplies, and accommodation in advance."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Carnaza+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/carnaza-island.php",
+      "source_file": "pages/destinations/north-cebu/carnaza-island.php"
+    },
+    {
+      "id": "gibitngil-island",
+      "name": "Gibitngil Island",
+      "category": "North Cebu",
+      "location": "Off Medellin, northern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Limestone coast and coves Destination feature",
+      "experience": "Island & Coastal Adventure Explore local attractions",
+      "travel_style": "Boat & coastal adventure Plan ahead for your visit",
+      "description": "An island off Medellin known for dramatic limestone scenery, clear-water coves, and boat-based coastal excursions.",
+      "overview": [
+        "Gibitngil Island lies off the coast of Medellin in northern Cebu. Visitors often explore its coastal formations and coves through locally arranged boat trips.",
+        "An island off Medellin known for dramatic limestone scenery, clear-water coves, and boat-based coastal excursions.",
+        "Use local operators and follow all sea-safety instructions."
+      ],
+      "activities": [
+        "Island & Coastal Adventure Explore local attractions",
+        "Limestone coast and coves Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Off Medellin, northern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Off Medellin, northern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Gibitngil Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Use local operators and follow all sea-safety instructions."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Gibitngil+Island+Medellin+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/gibitngil-island.php",
+      "source_file": "pages/destinations/north-cebu/gibitngil-island.php"
+    },
+    {
+      "id": "kota-beach",
+      "name": "Kota Beach",
+      "category": "North Cebu",
+      "location": "Santa Fe, Bantayan Island Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Sandy beach and tidal sandbar Destination feature",
+      "experience": "Beach & Island Escape Explore local attractions",
+      "travel_style": "Beach & relaxation Plan ahead for your visit",
+      "description": "A popular beach on Santa Fe, Bantayan Island, known for its broad sandy shoreline and picturesque sandbar at suitable tides.",
+      "overview": [
+        "Kota Beach is in Santa Fe on Bantayan Island. Its shoreline and sandbar are among the area's best-known coastal scenes, with appearance affected by tides and weather.",
+        "A popular beach on Santa Fe, Bantayan Island, known for its broad sandy shoreline and picturesque sandbar at suitable tides.",
+        "Check tides before planning around the sandbar."
+      ],
+      "activities": [
+        "Beach & Island Escape Explore local attractions",
+        "Sandy beach and tidal sandbar Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Santa Fe, Bantayan Island. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Santa Fe, Bantayan Island. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Kota Beach on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check tides before planning around the sandbar."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kota+Beach+Santa+Fe+Bantayan",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/kota-beach.php",
+      "source_file": "pages/destinations/north-cebu/kota-beach.php"
+    },
+    {
+      "id": "luyang-cave",
+      "name": "Luyang Cave",
+      "category": "North Cebu",
+      "location": "Northern Cebu; confirm exact barangay locally Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Cave and nature site Destination feature",
+      "experience": "Cave & Nature Explore local attractions",
+      "travel_style": "Guided nature exploration Plan ahead for your visit",
+      "description": "A cave attraction in the northern Cebu area offering a nature-focused visit that should be planned with local guidance.",
+      "overview": [
+        "Luyang Cave is associated with the northern Cebu area. Because cave access and visitor facilities can vary, visitors should confirm the exact entrance, route, and local arrangements before travelling.",
+        "A cave attraction in the northern Cebu area offering a nature-focused visit that should be planned with local guidance.",
+        "Verify the exact location and access conditions before travelling."
+      ],
+      "activities": [
+        "Cave & Nature Explore local attractions",
+        "Cave and nature site Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Northern Cebu; confirm exact barangay locally. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Northern Cebu; confirm exact barangay locally. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Luyang Cave on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Verify the exact location and access conditions before travelling."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Luyang+Cave+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/luyang-cave.php",
+      "source_file": "pages/destinations/north-cebu/luyang-cave.php"
+    },
+    {
+      "id": "malapascua-island",
+      "name": "Malapascua Island",
+      "category": "North Cebu",
+      "location": "Daanbantayan Northern tip of Cebu",
+      "coordinates": {
+        "latitude": 11.3333,
+        "longitude": 124.1167
+      },
+      "highlight": "Thresher Sharks Daily diving encounters",
+      "experience": "Diving & Beaches Marine sanctuary",
+      "travel_style": null,
+      "description": "A quiet island in northern Cebu famous for daily thresher shark dives, vibrant coral reefs, and beautiful white-sand beaches.",
+      "overview": [
+        "Malapascua Island is a small, peaceful island located off the northern tip of Cebu in Daanbantayan. It is world-renowned among divers for being one of the only places on Earth where you can reliably see thresher sharks in their natural habitat.",
+        "The thresher sharks come to the nearby Monad Shoal, a sunken island, every morning to be cleaned by small reef fish. Aside from the sharks, the island offers beautiful white-sand beaches, vibrant coral reefs, and a laid-back atmosphere.",
+        "Getting there involves a scenic 3.5 to 4-hour bus ride from Cebu City to Maya Port, followed by a short 30-minute boat ride to the island."
+      ],
+      "activities": [
+        "Diving & Beaches Marine sanctuary",
+        "Thresher Sharks Daily diving encounters"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "from Cebu City",
+      "transportation": [
+        {
+          "option": "Bus to Maya Port",
+          "details": "🚌 Bus to Maya Port 3.5 - 4 hrs From Cebu North Bus Terminal, take a Ceres bus bound for Maya Port in Daanbantayan. The bus ride is scenic and passes through several towns."
+        },
+        {
+          "option": "Boat to Malapascua",
+          "details": "🚤 Boat to Malapascua 30 mins From Maya Port, take a local outrigger boat (bangka) to Malapascua Island. Boats run regularly during daylight hours."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Malapascua Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Thresher shark dives require an early start, usually leaving at 4:30 AM to reach the shoal by sunrise. If you are not a diver, you can still enjoy snorkeling, island hopping, and relaxing on the beautiful beaches."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Malapascua+Island+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/malapascua-island.php",
+      "source_file": "pages/destinations/north-cebu/malapascua-island.php"
+    },
+    {
+      "id": "medellin",
+      "name": "Medellin",
+      "category": "North Cebu",
+      "location": "Northern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Coastal town and island gateway Destination feature",
+      "experience": "Coastal Municipality Explore local attractions",
+      "travel_style": "Road trip & coastal exploration Plan ahead for your visit",
+      "description": "A northern Cebu municipality with coastal scenery, local communities, and access to nearby island and marine attractions.",
+      "overview": [
+        "Medellin is on the northern coast of Cebu. It serves as a base for exploring nearby coastal areas and arranging trips to destinations such as Gibitngil Island.",
+        "A northern Cebu municipality with coastal scenery, local communities, and access to nearby island and marine attractions.",
+        "Arrange island activities with local operators."
+      ],
+      "activities": [
+        "Coastal Municipality Explore local attractions",
+        "Coastal town and island gateway Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Northern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Northern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Medellin on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Arrange island activities with local operators."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Medellin+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/medellin.php",
+      "source_file": "pages/destinations/north-cebu/medellin.php"
+    },
+    {
+      "id": "san-remigio",
+      "name": "San Remigio",
+      "category": "North Cebu",
+      "location": "Northwestern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Coastal municipality Destination feature",
+      "experience": "Beach & Coastal Town Explore local attractions",
+      "travel_style": "Beach & relaxation Plan ahead for your visit",
+      "description": "A northern Cebu municipality with a long coastline and beach areas popular for relaxed seaside visits.",
+      "overview": [
+        "San Remigio is located on Cebu's northwestern coast. Its coastal setting makes it a destination for beach stays and a stop on northern Cebu road trips.",
+        "A northern Cebu municipality with a long coastline and beach areas popular for relaxed seaside visits.",
+        "Check sea conditions and beach access before visiting."
+      ],
+      "activities": [
+        "Beach & Coastal Town Explore local attractions",
+        "Coastal municipality Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Northwestern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Northwestern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find San Remigio on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check sea conditions and beach access before visiting."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=San+Remigio+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/san-remigio.php",
+      "source_file": "pages/destinations/north-cebu/san-remigio.php"
+    },
+    {
+      "id": "timubo-cave",
+      "name": "Timubo Cave",
+      "category": "North Cebu",
+      "location": "Bantayan Island, northern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Cave with underground pool Destination feature",
+      "experience": "Cave & Freshwater Pool Explore local attractions",
+      "travel_style": "Cave & nature visit Plan ahead for your visit",
+      "description": "A cave attraction on Bantayan Island known for an underground pool and a short cave-exploration experience.",
+      "overview": [
+        "Timubo Cave is on Bantayan Island in northern Cebu. Visitors descend into a cave environment where an underground pool is a key feature; access conditions may vary.",
+        "A cave attraction on Bantayan Island known for an underground pool and a short cave-exploration experience.",
+        "Follow local guidance and avoid the cave during unsafe weather."
+      ],
+      "activities": [
+        "Cave & Freshwater Pool Explore local attractions",
+        "Cave with underground pool Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Bantayan Island, northern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Bantayan Island, northern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Timubo Cave on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Follow local guidance and avoid the cave during unsafe weather."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Timubo+Cave+Bantayan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/timubo-cave.php",
+      "source_file": "pages/destinations/north-cebu/timubo-cave.php"
+    },
+    {
+      "id": "tuburan-springs",
+      "name": "Tuburan Springs",
+      "category": "North Cebu",
+      "location": "Tuburan, western Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Freshwater and countryside destination Destination feature",
+      "experience": "Freshwater & Nature Explore local attractions",
+      "travel_style": "Nature & local exploration Plan ahead for your visit",
+      "description": "A nature-oriented stop in Tuburan, a western Cebu municipality known for upland landscapes and freshwater attractions.",
+      "overview": [
+        "Tuburan is on Cebu's western side and has countryside and freshwater destinations. Specific spring facilities and access arrangements can vary by site.",
+        "A nature-oriented stop in Tuburan, a western Cebu municipality known for upland landscapes and freshwater attractions.",
+        "Confirm the exact site and current access before departure."
+      ],
+      "activities": [
+        "Freshwater & Nature Explore local attractions",
+        "Freshwater and countryside destination Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Tuburan, western Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Tuburan, western Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Tuburan Springs on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm the exact site and current access before departure."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tuburan+Springs+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/tuburan-springs.php",
+      "source_file": "pages/destinations/north-cebu/tuburan-springs.php"
+    },
+    {
+      "id": "virgin-island-bantayan",
+      "name": "Virgin Island, Bantayan",
+      "category": "North Cebu",
+      "location": "Off Bantayan Island, northern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Boat-access island excursion Destination feature",
+      "experience": "Island & Beach Explore local attractions",
+      "travel_style": "Beach & island hopping Plan ahead for your visit",
+      "description": "A sandbar and island excursion commonly visited by boat from the Bantayan area, valued for clear-water scenery in suitable conditions.",
+      "overview": [
+        "Virgin Island is a popular boat-excursion destination off Bantayan Island. Access and facilities can vary with weather, tides, and local operator arrangements.",
+        "A sandbar and island excursion commonly visited by boat from the Bantayan area, valued for clear-water scenery in suitable conditions.",
+        "Confirm tides, boat arrangements, and current visitor rules."
+      ],
+      "activities": [
+        "Island & Beach Explore local attractions",
+        "Boat-access island excursion Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Off Bantayan Island, northern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Off Bantayan Island, northern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Virgin Island, Bantayan on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Confirm tides, boat arrangements, and current visitor rules."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Virgin+Island+Bantayan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/north-cebu/virgin-island-bantayan.php",
+      "source_file": "pages/destinations/north-cebu/virgin-island-bantayan.php"
+    },
+    {
+      "id": "aguinid-falls",
+      "name": "Aguinid Falls",
+      "category": "South Cebu",
+      "location": "Samboan, southern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Multi-level waterfall Destination feature",
+      "experience": "Waterfall & Adventure Explore local attractions",
+      "travel_style": "Guided nature adventure Plan ahead for your visit",
+      "description": "A multi-level waterfall attraction in Samboan where guided river trekking and cascading pools are part of the experience.",
+      "overview": [
+        "Aguinid Falls is in Samboan, southern Cebu. The site is known for a series of cascades and a guided route through the river environment.",
+        "A multi-level waterfall attraction in Samboan where guided river trekking and cascading pools are part of the experience.",
+        "Follow guide instructions because rocks and water levels can be hazardous."
+      ],
+      "activities": [
+        "Waterfall & Adventure Explore local attractions",
+        "Multi-level waterfall Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Samboan, southern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Samboan, southern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Aguinid Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Follow guide instructions because rocks and water levels can be hazardous."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Aguinid+Falls+Samboan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/aguinid-falls.php",
+      "source_file": "pages/destinations/south-cebu/aguinid-falls.php"
+    },
+    {
+      "id": "argao",
+      "name": "Argao",
+      "category": "South Cebu",
+      "location": "Southeastern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Heritage town and local food Destination feature",
+      "experience": "Heritage & Coastal Town Explore local attractions",
+      "travel_style": "Culture & food trip Plan ahead for your visit",
+      "description": "A southern Cebu municipality with a historic town center, traditional food, and coastal and upland scenery.",
+      "overview": [
+        "Argao is a heritage-rich municipality in southeastern Cebu. Visitors can explore its church and town center, sample local torta, and use the town as a stop along the southern route.",
+        "A southern Cebu municipality with a historic town center, traditional food, and coastal and upland scenery.",
+        "Allow time to explore beyond the main road."
+      ],
+      "activities": [
+        "Heritage & Coastal Town Explore local attractions",
+        "Heritage town and local food Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Southeastern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Southeastern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Argao on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Allow time to explore beyond the main road."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Argao+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/argao.php",
+      "source_file": "pages/destinations/south-cebu/argao.php"
+    },
+    {
+      "id": "bojo-river",
+      "name": "Bojo River",
+      "category": "South Cebu",
+      "location": "Aloguinsan, western Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Community river ecotourism Destination feature",
+      "experience": "River & Community Ecotourism Explore local attractions",
+      "travel_style": "Nature & guided boat tour Plan ahead for your visit",
+      "description": "A community-managed river experience in Aloguinsan known for its mangrove-lined waterway and guided nature tours.",
+      "overview": [
+        "Bojo River is in Aloguinsan, western Cebu. Local community tourism initiatives guide visitors through the river environment and explain its mangroves, wildlife, and conservation.",
+        "A community-managed river experience in Aloguinsan known for its mangrove-lined waterway and guided nature tours.",
+        "Book with the local community and follow conservation guidance."
+      ],
+      "activities": [
+        "River & Community Ecotourism Explore local attractions",
+        "Community river ecotourism Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Aloguinsan, western Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Aloguinsan, western Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Bojo River on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Book with the local community and follow conservation guidance."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bojo+River+Aloguinsan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/bojo-river.php",
+      "source_file": "pages/destinations/south-cebu/bojo-river.php"
+    },
+    {
+      "id": "boljoon",
+      "name": "Boljoon",
+      "category": "South Cebu",
+      "location": "Southeastern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Historic church and heritage town Destination feature",
+      "experience": "Heritage & Coastal Town Explore local attractions",
+      "travel_style": "Heritage & culture Plan ahead for your visit",
+      "description": "A coastal municipality with a notable historic church complex and a strong connection to Cebu's Spanish-era heritage.",
+      "overview": [
+        "Boljoon is on Cebu's southeastern coast. Its heritage area includes the historic Nuestra Señora del Patrocinio de Maria Church complex and nearby cultural landmarks.",
+        "A coastal municipality with a notable historic church complex and a strong connection to Cebu's Spanish-era heritage.",
+        "Respect the active religious site and local community."
+      ],
+      "activities": [
+        "Heritage & Coastal Town Explore local attractions",
+        "Historic church and heritage town Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Southeastern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Southeastern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Boljoon on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Respect the active religious site and local community."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Boljoon+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/boljoon.php",
+      "source_file": "pages/destinations/south-cebu/boljoon.php"
+    },
+    {
+      "id": "dalaguete",
+      "name": "Dalaguete",
+      "category": "South Cebu",
+      "location": "Southeastern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Gateway to Mantalongon highlands Destination feature",
+      "experience": "Highland & Coastal Municipality Explore local attractions",
+      "travel_style": "Countryside & mountain trip Plan ahead for your visit",
+      "description": "A southeastern Cebu destination known as a gateway to upland scenery, vegetable farms, and routes toward Osmeña Peak.",
+      "overview": [
+        "Dalaguete stretches from the coast to the highlands of southern Cebu. It is a common starting area for visitors heading to Mantalongon and Osmeña Peak.",
+        "A southeastern Cebu destination known as a gateway to upland scenery, vegetable farms, and routes toward Osmeña Peak.",
+        "Check weather and local transport before heading uphill."
+      ],
+      "activities": [
+        "Highland & Coastal Municipality Explore local attractions",
+        "Gateway to Mantalongon highlands Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Southeastern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Southeastern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Dalaguete on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check weather and local transport before heading uphill."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dalaguete+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/dalaguete.php",
+      "source_file": "pages/destinations/south-cebu/dalaguete.php"
+    },
+    {
+      "id": "dao-falls",
+      "name": "Dao Falls",
+      "category": "South Cebu",
+      "location": "Samboan, southern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Waterfall and nature trail Destination feature",
+      "experience": "Waterfall & Trekking Explore local attractions",
+      "travel_style": "Trekking & nature Plan ahead for your visit",
+      "description": "A waterfall in Samboan reached by a nature trail, known for its tall cascade and lush surroundings.",
+      "overview": [
+        "Dao Falls is in Samboan, southern Cebu. The visit involves a walk through a natural environment to reach the waterfall, with conditions depending on weather and trail maintenance.",
+        "A waterfall in Samboan reached by a nature trail, known for its tall cascade and lush surroundings.",
+        "Check weather and trail conditions before setting out."
+      ],
+      "activities": [
+        "Waterfall & Trekking Explore local attractions",
+        "Waterfall and nature trail Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Samboan, southern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Samboan, southern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Dao Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check weather and trail conditions before setting out."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dao+Falls+Samboan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/dao-falls.php",
+      "source_file": "pages/destinations/south-cebu/dao-falls.php"
+    },
+    {
+      "id": "inambakan-falls",
+      "name": "Inambakan Falls",
+      "category": "South Cebu",
+      "location": "Ginatilan, southern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Tall cascade and natural pool Destination feature",
+      "experience": "Waterfall & Nature Explore local attractions",
+      "travel_style": "Nature & waterfall visit Plan ahead for your visit",
+      "description": "A waterfall destination in Ginatilan with a prominent cascade and a natural pool in a forested setting.",
+      "overview": [
+        "Inambakan Falls is located in Ginatilan, southern Cebu. The falls are known for their tall cascade and pool, with the surrounding area offering a nature-focused visit.",
+        "A waterfall destination in Ginatilan with a prominent cascade and a natural pool in a forested setting.",
+        "Do not enter the water when conditions are unsafe."
+      ],
+      "activities": [
+        "Waterfall & Nature Explore local attractions",
+        "Tall cascade and natural pool Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Ginatilan, southern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Ginatilan, southern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Inambakan Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Do not enter the water when conditions are unsafe."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Inambakan+Falls+Ginatilan+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/inambakan-falls.php",
+      "source_file": "pages/destinations/south-cebu/inambakan-falls.php"
+    },
+    {
+      "id": "kawasan-falls",
+      "name": "Kawasan Falls",
+      "category": "South Cebu",
+      "location": "Badian, Cebu Southern Cebu",
+      "coordinates": {
+        "latitude": 9.807,
+        "longitude": 123.375
+      },
+      "highlight": "Waterfalls Natural scenery",
+      "experience": "Canyoneering Guided adventure",
+      "travel_style": "Nature Trip Outdoor exploration",
+      "description": "Discover turquoise waters, lush tropical forests, and unforgettable adventures in Badian, Cebu.",
+      "overview": [
+        "Kawasan Falls is one of Cebu's best-known natural attractions. It is famous for its blue-green water, cascading waterfalls, and tropical forest surroundings.",
+        "Located in Badian, southern Cebu, it offers visitors a chance to appreciate nature, take photographs, and explore available guided outdoor activities.",
+        "Whether you are traveling with friends or exploring Cebu on your own, Kawasan Falls can be a memorable stop on your itinerary. Check local access rules and conditions before planning your visit."
+      ],
+      "activities": [
+        "Canyoneering Guided adventure",
+        "Waterfalls Natural scenery"
+      ],
+      "entrance_fee": "s, access arrangements, operating hours, and activity availability with local tourism authorities or authorized operator",
+      "operating_hours": ", and activity availability with local tourism authorities or authorized operators",
+      "transportation": [
+        {
+          "option": "Bus from Cebu City",
+          "details": "🚌 Bus from Cebu City Check current schedules Travel to Cebu City's South Bus Terminal and confirm which bus route serves Badian. Ask the operator where to get off for Kawasan Falls before boarding."
+        },
+        {
+          "option": "Private Vehicle",
+          "details": "🚗 Private Vehicle Drive toward Badian using a navigation app. Check road conditions, parking arrangements, and the route before leaving."
+        },
+        {
+          "option": "From Moalboal",
+          "details": "🛵 From Moalboal Arrange local transportation or a tour from Moalboal. Confirm the fare, pickup location, and return journey in advance."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Kawasan Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Visit early when possible, wear suitable footwear, and follow local safety instructions. For canyoneering, use an authorized guide and appropriate safety equipment."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kawasan+Falls+Badian+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/kawasan-falls.php",
+      "source_file": "pages/destinations/south-cebu/kawasan-falls.php"
+    },
+    {
+      "id": "lambug-beach",
+      "name": "Lambug Beach",
+      "category": "South Cebu",
+      "location": "Badian, southern Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "Sandy coastal beach Destination feature",
+      "experience": "Beach & Coastal Escape Explore local attractions",
+      "travel_style": "Beach & relaxation Plan ahead for your visit",
+      "description": "A coastal destination in Badian known for its pale sand, clear-water views in suitable conditions, and relaxed beach atmosphere.",
+      "overview": [
+        "Lambug Beach is in Badian, southern Cebu. It is a popular coastal stop for visitors exploring the Badian area and nearby waterfalls.",
+        "A coastal destination in Badian known for its pale sand, clear-water views in suitable conditions, and relaxed beach atmosphere.",
+        "Water conditions change; follow local safety advice."
+      ],
+      "activities": [
+        "Beach & Coastal Escape Explore local attractions",
+        "Sandy coastal beach Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Badian, southern Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Badian, southern Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Lambug Beach on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Water conditions change; follow local safety advice."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lambug+Beach+Badian+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/lambug-beach.php",
+      "source_file": "pages/destinations/south-cebu/lambug-beach.php"
+    },
+    {
+      "id": "mantayupan-falls",
+      "name": "Mantayupan Falls",
+      "category": "South Cebu",
+      "location": "Barili, western Cebu Cebu, Philippines",
+      "coordinates": null,
+      "highlight": "High waterfall and natural setting Destination feature",
+      "experience": "Waterfall & Nature Explore local attractions",
+      "travel_style": "Nature & sightseeing Plan ahead for your visit",
+      "description": "A well-known waterfall in Barili featuring a high cascade and a natural setting surrounded by greenery.",
+      "overview": [
+        "Mantayupan Falls is located in Barili, western Cebu. The site is a popular nature stop for visitors travelling through the western and southern parts of the province.",
+        "A well-known waterfall in Barili featuring a high cascade and a natural setting surrounded by greenery.",
+        "Check current access and water safety conditions."
+      ],
+      "activities": [
+        "Waterfall & Nature Explore local attractions",
+        "High waterfall and natural setting Destination feature"
+      ],
+      "entrance_fee": null,
+      "operating_hours": ", fees, transport, and safety advisories with the official attraction, local tourism office, or authorized operator befo",
+      "transportation": [
+        {
+          "option": "Taxi or Ride-Hailing",
+          "details": "🚕 Taxi or Ride-Hailing For a direct trip, check whether a taxi or ride-hailing service accepts trips to Barili, western Cebu. Confirm the drop-off point with your driver before departure."
+        },
+        {
+          "option": "Public Transport",
+          "details": "🚌 Public Transport Ask the local tourism office, terminal staff, or an authorized operator for the current bus, jeepney, or boat route serving Barili, western Cebu. Routes and schedules may change."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Mantayupan Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Check current access and water safety conditions."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mantayupan+Falls+Barili+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/mantayupan-falls.php",
+      "source_file": "pages/destinations/south-cebu/mantayupan-falls.php"
+    },
+    {
+      "id": "moalboal",
+      "name": "Moalboal Sardine Run",
+      "category": "South Cebu",
+      "location": "Moalboal, Cebu, Philippines",
+      "coordinates": {
+        "latitude": 9.9619,
+        "longitude": 123.3747
+      },
+      "highlight": null,
+      "experience": null,
+      "travel_style": null,
+      "description": "Experience millions of sardines and sea turtles just meters from the shore in this vibrant coastal town on Cebu's south-west coast.",
+      "overview": [
+        "Moalboal sits on Cebu's south-west coast, about 90 km from Cebu City. Its sardine run is one of the Philippines' most famous marine attractions — you can snorkel right near the shore without needing a boat.",
+        "Green sea turtles are often spotted in the same coastal waters, feeding in the seagrass beds. Most travellers visit for a day trip or an overnight stay, combining the sardine run and sea turtles with a Pescador Island boat tour.",
+        "The drive from Cebu City usually takes around 2.5–3 hours by private car. Public buses can take longer because of traffic and stops along the route. Some travellers also visit Kawasan Falls for canyoneering farther south."
+      ],
+      "activities": [],
+      "entrance_fee": null,
+      "operating_hours": "by private car FROM MACTAN AIRPORT ~100 km 3–3",
+      "transportation": [
+        {
+          "option": "Private transfer",
+          "details": "✓ Private transfer ~2.5–3 hrs Travel directly from your hotel or the airport in a private, air-conditioned car or van. Ask the provider for the current fare and confirm whether stops and other fees are included."
+        },
+        {
+          "option": "Ceres bus",
+          "details": "🚌 Ceres bus ~3–4 hrs or longer Go to Cebu South Bus Terminal and look for a Ceres Liner bus travelling via Barili toward the south-western part of Cebu. Confirm the destination with the conductor before boarding."
+        },
+        {
+          "option": "Shared van",
+          "details": "🚐 Shared van Varies Shared vans may offer a quicker alternative to the bus, depending on traffic, departure time, passenger pickups, and luggage space. Confirm the fare and drop-off location before travelling."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Moalboal on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Try snorkelling in the morning when visibility and lighting may be favourable. Bring reef-safe sunscreen, follow local marine guidelines, and avoid touching or chasing the marine life."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Moalboal+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/moalboal.php",
+      "source_file": "pages/destinations/south-cebu/moalboal.php"
+    },
+    {
+      "id": "oslob",
+      "name": "Oslob Whale Sharks",
+      "category": "South Cebu",
+      "location": "Oslob, Cebu Southern tip of Cebu",
+      "coordinates": {
+        "latitude": 9.5255,
+        "longitude": 123.3761
+      },
+      "highlight": "Whale Sharks Butanding interaction",
+      "experience": "Snorkeling / Diving Marine sanctuary",
+      "travel_style": null,
+      "description": "Swim alongside the gentle giants of the sea in the clear waters of southern Cebu—an unforgettable marine encounter.",
+      "overview": [
+        "Oslob is a coastal town in southern Cebu famous for its whale shark interaction. Locally known as \"butanding,\" these gentle giants gather in the waters off Barangay Tan-awan, where locals feed them small shrimp.",
+        "While the practice is controversial among conservationists, it has become a major tourist draw. The activity is tightly regulated: you must watch a briefing, wear a life vest, and keep a safe distance (at least 4 meters) from the sharks.",
+        "Beyond the whale sharks, Oslob is also home to the stunning Tumalog Falls and the historic Cuartel Ruins, making it a great day trip or overnight destination."
+      ],
+      "activities": [
+        "Snorkeling / Diving Marine sanctuary",
+        "Whale Sharks Butanding interaction"
+      ],
+      "entrance_fee": null,
+      "operating_hours": "from Cebu City",
+      "transportation": [
+        {
+          "option": "Bus from South Bus Terminal",
+          "details": "🚌 Bus from South Bus Terminal 3.5 - 4 hrs From Cebu South Bus Terminal, take a Ceres bus bound for Bato via Oslob. Ask the conductor to drop you at the \"Whale Shark Watching\" area in Tan-awan."
+        },
+        {
+          "option": "Private Car / Van",
+          "details": "🚗 Private Car / Van For a more comfortable trip, hire a private van. You can leave later and stop at other attractions like Simala Shrine or Tumalog Falls along the way."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Oslob on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Arrive as early as possible (before 6:00 AM) to secure a slot and avoid the intense midday heat. Wear reef-safe sunscreen, as regular sunscreen can harm the whale sharks and coral."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Oslob+Whale+Shark+Watching+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/oslob.php",
+      "source_file": "pages/destinations/south-cebu/oslob.php"
+    },
+    {
+      "id": "osmena-peak",
+      "name": "Osmeña Peak",
+      "category": "South Cebu",
+      "location": "Dalaguete, Cebu Southern Cebu",
+      "coordinates": {
+        "latitude": 9.85,
+        "longitude": 123.5167
+      },
+      "highlight": "Mountain Peak 1,013 meters above sea level",
+      "experience": "Hiking & Sunrise Outdoor adventure",
+      "travel_style": null,
+      "description": "Cebu's highest point, offering dramatic views of rolling hills and the sea at sunrise.",
+      "overview": [
+        "Osmeña Peak is the highest mountain in Cebu, standing at 1,013 meters above sea level. It is located in the town of Dalaguete, about 2.5 to 3 hours from Cebu City.",
+        "The peak is famous for its unique landscape of rolling, jagged hills that resemble the Chocolate Hills of Bohol. From the summit, you can see a stunning panorama of the coastline and the sea.",
+        "The hike to the peak is relatively easy, usually taking about 15 to 20 minutes from the jump-off point. Many visitors come here for sunrise or sunset, camping, and photography."
+      ],
+      "activities": [
+        "Hiking & Sunrise Outdoor adventure",
+        "Mountain Peak 1,013 meters above sea level"
+      ],
+      "entrance_fee": "s, habal-habal fares, and food",
+      "operating_hours": "from Cebu City",
+      "transportation": [
+        {
+          "option": "Bus to Dalaguete",
+          "details": "🚌 Bus to Dalaguete 2.5 - 3 hrs From Cebu South Bus Terminal, take a Ceres bus bound for Bato via Dalaguete or Oslob. Ask the conductor to drop you at the Dalaguete junction (Mantalongon)."
+        },
+        {
+          "option": "Habal-Habal to Jump-off",
+          "details": "🛵 Habal-Habal to Jump-off From the Dalaguete junction, take a habal-habal (motorcycle taxi) to the Osmeña Peak jump-off point. It's about a 30-minute ride."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Osmeña Peak on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "The temperature at the peak can be quite cold and windy, especially before sunrise. Bring a jacket or a light blanket. Also, be prepared for muddy trails if it has rained recently."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Osmena+Peak+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/osmena-peak.php",
+      "source_file": "pages/destinations/south-cebu/osmena-peak.php"
+    },
+    {
+      "id": "simala-shrine",
+      "name": "Simala Shrine",
+      "category": "South Cebu",
+      "location": "Sibonga, Cebu Southern Cebu",
+      "coordinates": {
+        "latitude": 9.9833,
+        "longitude": 123.6
+      },
+      "highlight": "Castle-like Church Miraculous Virgin Mary",
+      "experience": "Pilgrimage & Faith Religious site",
+      "travel_style": "Day Trip 2 - 2.5 hours from Cebu City",
+      "description": "A grand, castle-like church that serves as a major pilgrimage site in southern Cebu, known for its miraculous image of the Virgin Mary.",
+      "overview": [
+        "The Monastery of the Holy Eucharist, commonly known as Simala Shrine, is a grand, castle-like church located in Sibonga, southern Cebu. It is one of the most popular pilgrimage sites in the Philippines.",
+        "The shrine is home to a miraculous image of the Virgin Mary, and it is believed to grant miracles and heal the sick. The architecture is stunning, with towering spires, intricate details, and beautifully landscaped gardens.",
+        "Visitors can attend mass, light candles, offer prayers, and explore the shrine grounds. It is a place of deep spiritual significance for many Filipinos."
+      ],
+      "activities": [
+        "Pilgrimage & Faith Religious site",
+        "Castle-like Church Miraculous Virgin Mary"
+      ],
+      "entrance_fee": "? No, entrance to the shrine is free",
+      "operating_hours": "from Cebu City Discover Simala Shrine The Monastery of the Holy Eucharist, commonly known as Simala Shrine, is a grand,",
+      "transportation": [
+        {
+          "option": "Bus to Sibonga",
+          "details": "🚌 Bus to Sibonga 2 - 2.5 hrs From Cebu South Bus Terminal, take a Ceres bus bound for Bato via Sibonga. Ask the conductor to drop you at the Simala Shrine junction."
+        },
+        {
+          "option": "Habal-Habal or Tricycle",
+          "details": "🛵 Habal-Habal or Tricycle From the junction, take a habal-habal (motorcycle taxi) or tricycle to the shrine. It's about a 15-minute ride uphill."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Simala Shrine on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "Dress respectfully. As this is an active place of worship, avoid wearing shorts, tank tops, or revealing clothing. If you plan to attend mass, arrive early as the church fills up quickly, especially on Sundays and during religious holidays."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Simala+Shrine+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/simala-shrine.php",
+      "source_file": "pages/destinations/south-cebu/simala-shrine.php"
+    },
+    {
+      "id": "sumilon-island",
+      "name": "Sumilon Island",
+      "category": "South Cebu",
+      "location": "Oslob, Cebu Just off the coast of Oslob",
+      "coordinates": {
+        "latitude": 9.4667,
+        "longitude": 123.4167
+      },
+      "highlight": "Shifting Sandbar White sand & clear water",
+      "experience": "Snorkeling & Beach Marine sanctuary",
+      "travel_style": "Day Trip Boat ride from Oslob",
+      "description": "A tiny paradise off the coast of Oslob, famous for its shifting white sandbar and crystal-clear marine sanctuary.",
+      "overview": [
+        "Sumilon Island is a 24-hectare coral island located off the southeastern tip of Cebu in Oslob. It is best known for its shifting sandbar—a stretch of white sand that changes shape depending on the tide and the season.",
+        "The island is also a protected marine sanctuary, making it a fantastic spot for snorkeling and diving. The waters around the island are teeming with vibrant coral and diverse marine life.",
+        "You don't need to stay at the luxury resort (Bluewater Sumilon) to visit. Day-trippers can take a short boat ride from the mainland to enjoy the sandbar and snorkeling area."
+      ],
+      "activities": [
+        "Snorkeling & Beach Marine sanctuary",
+        "Shifting Sandbar White sand & clear water"
+      ],
+      "entrance_fee": "s, and food",
+      "operating_hours": null,
+      "transportation": [
+        {
+          "option": "Boat from Oslob",
+          "details": "🚤 Boat from Oslob 10-15 mins From the mainland, take a short bangka (outrigger boat) to the island. If you are not staying at the resort, you can arrange a day trip boat at the port."
+        },
+        {
+          "option": "Bus to Oslob",
+          "details": "🚌 Bus to Oslob From Cebu South Bus Terminal, take a Ceres bus bound for Bato via Oslob and get off at the Sumilon port (near the whale shark area)."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Sumilon Island on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "The sandbar is best viewed during low tide. Check the tide schedule before you go, or ask your boatman—they know exactly when the sandbar will be at its widest. Bring reef-safe sunscreen!"
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sumilon+Island+Oslob+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/sumilon-island.php",
+      "source_file": "pages/destinations/south-cebu/sumilon-island.php"
+    },
+    {
+      "id": "tumalog-falls",
+      "name": "Tumalog Falls",
+      "category": "South Cebu",
+      "location": "Oslob, Cebu Near the whale shark area",
+      "coordinates": {
+        "latitude": 9.5,
+        "longitude": 123.4
+      },
+      "highlight": "Curtain Waterfall Shallow natural pool",
+      "experience": "Swimming & Nature Refreshing dip",
+      "travel_style": "Quick Stop Usually 1-2 hours",
+      "description": "A stunning, curtain-style waterfall near Oslob with a shallow, refreshing pool—perfect for a cool dip after swimming with whale sharks.",
+      "overview": [
+        "Tumalog Falls is a breathtaking waterfall located in Oslob, southern Cebu. It is famous for its unique \"curtain\" style—the water cascades down a wide, moss-covered rock face, creating a fine mist that cools the area.",
+        "The pool at the base of the falls is shallow and refreshing, making it a great spot for swimming and relaxing. The surrounding area is lush and green, with towering trees and tropical plants.",
+        "Because it is just a short drive from the whale shark watching area in Tan-awan, many visitors combine the two activities in a single day trip."
+      ],
+      "activities": [
+        "Swimming & Nature Refreshing dip",
+        "Curtain Waterfall Shallow natural pool"
+      ],
+      "entrance_fee": "? Yes, there is a small entrance fee (around ₱50) for adults",
+      "operating_hours": "Discover Tumalog Falls Tumalog Falls is a breathtaking waterfall located in Oslob, southern Cebu",
+      "transportation": [
+        {
+          "option": "Bus to Oslob",
+          "details": "🚌 Bus to Oslob 3.5 - 4 hrs From Cebu South Bus Terminal, take a Ceres bus bound for Bato via Oslob. Ask the conductor to drop you at the Tumalog Falls junction."
+        },
+        {
+          "option": "Habal-Habal to the Falls",
+          "details": "🛵 Habal-Habal to the Falls From the junction, take a habal-habal (motorcycle taxi) down the steep road to the falls. This is the most convenient way to get there."
+        },
+        {
+          "option": "Find the Location",
+          "details": "📍 Find the Location Find Tumalog Falls on Google Maps ↗"
+        }
+      ],
+      "visitor_tips": [
+        "The road to Tumalog Falls is steep and narrow. You can take a habal-habal (motorcycle taxi) from the main road, or walk down if you're feeling adventurous. Bring water shoes, as the bottom of the pool can be slippery."
+      ],
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tumalog+Falls+Oslob+Cebu",
+      "detail_url": "/Cebu/pages/destinations/south-cebu/tumalog-falls.php",
+      "source_file": "pages/destinations/south-cebu/tumalog-falls.php"
+    }
+  ]
+}
