@@ -1,0 +1,21 @@
+# API keys and credentials
+ai/groq-config.php
+.env
+.env.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+
+# Temporary testing files
+test-chat.php
+test-knowledge.php
+check-curl.php
+
+# Windows system files
+Thumbs.db
+desktop.ini

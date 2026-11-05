@@ -7,18 +7,18 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $pageDescription; ?>">
-    <title><?php echo $pageTitle; ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <title><?php echo htmlspecialchars($pageTitle); ?></title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-    
+
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" href="/Cebu/assets/css/style.css">
-    
-    <!-- MAIN SCRIPT (Loads your script.js) -->
+
+    <!-- MAIN SCRIPT -->
     <script src="/Cebu/assets/js/script.js" defer></script>
 </head>
 <body>
@@ -29,7 +29,9 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
             <span class="brand-mark">✦</span>
             <span>Smart Tourist <strong>Navigator</strong></span>
         </a>
+
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
         <nav class="nav-links" id="navLinks">
             <a href="/Cebu/index.php">Home</a>
             <a href="/Cebu/index.php#explore">Destinations</a>
@@ -38,26 +40,31 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
             <a href="/Cebu/index.php#transport">Transport</a>
             <a href="/Cebu/index.php#plan">Plan Trip</a>
         </nav>
+
         <a href="/Cebu/index.php#explore" class="header-cta">Start Exploring ↗</a>
     </header>
 
     <main>
 
         <!-- HERO SECTION -->
-     <section class="hero" style="background-image: url('/Cebu/assets/images/destination/kawasan.jpg'); background-size: cover; background-position: center;">
+        <section class="hero" style="background-image: url('/Cebu/assets/images/destination/kawasan.jpg'); background-size: cover; background-position: center;">
             <div class="hero-overlay"></div>
 
             <div class="hero-content">
                 <span class="eyebrow hero-eyebrow">YOUR LOCAL GUIDE TO CEBU</span>
+
                 <h1>Discover the<br><em>beauty of Cebu.</em></h1>
+
                 <p>
                     Find breathtaking destinations, local flavors,
                     and helpful travel routes for your next island adventure.
                 </p>
+
                 <div class="hero-actions">
                     <a href="#explore" class="button button-gold">Explore Destinations →</a>
                     <a href="#map-section" class="button button-glass">◎ View Interactive Map</a>
                 </div>
+
                 <div class="hero-footnote">
                     <span>✦</span> Explore local. Travel smarter.
                 </div>
@@ -73,6 +80,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                 <svg class="wave-svg wave-back" viewBox="0 0 2880 120" preserveAspectRatio="none">
                     <path d="M0 50 C240 0 480 100 720 50 S1200 0 1440 50 S1920 100 2160 50 S2640 0 2880 50 V120 H0 Z"></path>
                 </svg>
+
                 <svg class="wave-svg wave-front" viewBox="0 0 2880 120" preserveAspectRatio="none">
                     <path d="M0 65 C240 110 480 20 720 65 S1200 110 1440 65 S1920 20 2160 65 S2640 110 2880 65 V120 H0 Z"></path>
                 </svg>
@@ -83,15 +91,26 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
         <section class="intro-strip">
             <div>
                 <span class="strip-number">01</span>
-                <p><strong>Find places</strong><small>Discover popular spots and hidden gems.</small></p>
+                <p>
+                    <strong>Find places</strong>
+                    <small>Discover popular spots and hidden gems.</small>
+                </p>
             </div>
+
             <div>
                 <span class="strip-number">02</span>
-                <p><strong>Navigate easier</strong><small>View locations and open map directions.</small></p>
+                <p>
+                    <strong>Navigate easier</strong>
+                    <small>View locations and open map directions.</small>
+                </p>
             </div>
+
             <div>
                 <span class="strip-number">03</span>
-                <p><strong>Plan your trip</strong><small>Build a simple starting itinerary.</small></p>
+                <p>
+                    <strong>Plan your trip</strong>
+                    <small>Build a simple starting itinerary.</small>
+                </p>
             </div>
         </section>
 
@@ -103,6 +122,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     <h2>Popular <em>attractions</em></h2>
                     <p>From turquoise waterfalls and island beaches to Cebu's rich cultural heritage.</p>
                 </div>
+
                 <a class="text-link" href="#map-section">Explore the map ↗</a>
             </div>
 
@@ -112,6 +132,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     <span>⌕</span>
                     <input id="destinationSearch" type="search" placeholder="Search destinations, places, or activities..." aria-label="Search destinations">
                 </label>
+
                 <div class="filter-buttons">
                     <button class="filter-button active" data-filter="all">All places</button>
                     <button class="filter-button" data-filter="nature">Nature</button>
@@ -122,18 +143,20 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
 
             <!-- DESTINATION CARDS -->
             <div class="destination-grid" id="destinationGrid">
+
                 <!-- 1. KAWASAN FALLS -->
                 <article class="destination-card" data-category="nature" data-search="kawasan falls badian waterfall nature adventure">
-                    <a href="/Cebu/pages/destinations/kawasan-falls.php" class="card-link" aria-label="Read more about Kawasan Falls">
+                    <a href="/Cebu/pages/destinations/south-cebu/kawasan-falls.php" class="card-link" aria-label="Read more about Kawasan Falls">
                         <div class="card-image" style="background-image: url('/Cebu/assets/images/destination/amazing-falls.jpg');">
                             <span class="card-tag">NATURE</span>
                             <span class="image-location">Badian, Cebu</span>
                             <span class="travel-time">🚗 2.5 - 3 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">WATERFALLS & ADVENTURE</span>
-                        <h3><a href="/Cebu/pages/destinations/kawasan-falls.php">Kawasan Falls</a></h3>
+                        <h3><a href="/Cebu/pages/destinations/south-cebu/kawasan-falls.php">Kawasan Falls</a></h3>
                         <p>Discover turquoise water cascades and tropical scenery in southern Cebu.</p>
                         <button class="map-trigger" data-lat="9.8241" data-lng="123.3745" data-title="Kawasan Falls, Badian" data-desc="Waterfalls and outdoor adventure in Badian, southern Cebu.">View map & directions ↗</button>
                     </div>
@@ -148,6 +171,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">⛴️ 3 - 4 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">ISLAND ESCAPE</span>
                         <h3><a href="/Cebu/pages/destinations/bantayan-island.php">Bantayan Island</a></h3>
@@ -165,6 +189,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 30 - 45 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">ARCHITECTURE & VIEWS</span>
                         <h3><a href="/Cebu/pages/destinations/temple-leah.php">Temple of Leah</a></h3>
@@ -182,6 +207,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 3.5 - 4 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">COASTAL EXPERIENCE</span>
                         <h3><a href="/Cebu/pages/destinations/oslob.php">Oslob</a></h3>
@@ -199,6 +225,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 2.5 - 3 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">SNORKEL & DIVE</span>
                         <h3><a href="/Cebu/pages/destinations/moalboal.php">Moalboal Sardine Run</a></h3>
@@ -216,6 +243,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 15 - 30 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">HISTORY & CULTURE</span>
                         <h3><a href="/Cebu/pages/destinations/magellan-cross.php">Magellan's Cross</a></h3>
@@ -233,6 +261,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 15 - 30 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">OLDEST CHURCH</span>
                         <h3><a href="/Cebu/pages/destinations/cebu-city/basilica.php">Basilica del Santo Niño</a></h3>
@@ -250,6 +279,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 15 - 30 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">SPANISH FORT</span>
                         <h3><a href="/Cebu/pages/destinations/san-pedro.php">Fort San Pedro</a></h3>
@@ -267,6 +297,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 3.5 - 4 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">SANDBAR PARADISE</span>
                         <h3><a href="/Cebu/pages/destinations/sumilon-island.php">Sumilon Island</a></h3>
@@ -275,7 +306,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 10. MALAPASCUA ISLAND -->
+               
                 <article class="destination-card" data-category="beach" data-search="malapascua island thresher shark diving beach">
                     <a href="/Cebu/pages/destinations/malapascua-island.php" class="card-link" aria-label="Read more about Malapascua Island">
                         <div class="card-image" style="background-image: url('/Cebu/assets/images/destination/malapascua.jpg');">
@@ -284,6 +315,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 4 - 5 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">DIVE PARADISE</span>
                         <h3><a href="/Cebu/pages/destinations/malapascua-island.php">Malapascua Island</a></h3>
@@ -301,6 +333,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 2.5 - 3 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">MOUNTAIN PEAK</span>
                         <h3><a href="/Cebu/pages/destinations/osmena-peak.php">Osmeña Peak</a></h3>
@@ -318,6 +351,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 2 - 2.5 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">PILGRIMAGE SITE</span>
                         <h3><a href="/Cebu/pages/destinations/simala-shrine.php">Simala Shrine</a></h3>
@@ -335,6 +369,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 3.5 - 4 hrs</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">CURTAIN WATERFALL</span>
                         <h3><a href="/Cebu/pages/destinations/tumalog-falls.php">Tumalog Falls</a></h3>
@@ -352,6 +387,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚗 15 - 30 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">ANCESTRAL HOUSE</span>
                         <h3><a href="/Cebu/pages/destinations/casa-gorordo.php">Casa Gorordo</a></h3>
@@ -369,6 +405,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <span class="travel-time">🚤 20 - 30 min</span>
                         </div>
                     </a>
+
                     <div class="card-content">
                         <span class="card-kicker">SNORKELING SPOT</span>
                         <h3><a href="/Cebu/pages/destinations/nalusuan-island.php">Nalusuan Island</a></h3>
@@ -376,17 +413,20 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                         <button class="map-trigger" data-lat="10.2500" data-lng="124.0000" data-title="Nalusuan Island" data-desc="A small island resort and marine sanctuary near Mactan.">View map & directions ↗</button>
                     </div>
                 </article>
+
             </div>
 
-            <!-- BROWSE ALL DESTINATIONS -->
+       
             <div class="browse-destinations-wrap">
                 <a class="button button-dark browse-destinations" href="/Cebu/pages/destination.php">
                     Browse All Destinations <span aria-hidden="true">↗</span>
                 </a>
             </div>
+
             <p class="small-note arrival-disclaimer">
                 Travel times are estimated from Cebu City or Mactan Airport, depending on traffic and weather conditions.
             </p>
+
             <p id="noResults" class="no-results" hidden>No destinations found. Try another search or category.</p>
         </section>
 
@@ -408,10 +448,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     <div class="map-coordinates">◎ Map location selected</div>
                     <a id="externalDirections" class="button button-dark" href="https://www.google.com/maps/search/?api=1&query=Cebu+Philippines" target="_blank" rel="noopener">Open in Google Maps ↗</a>
                 </aside>
+
                 <div class="map-frame">
                     <iframe id="mapFrame" title="Map of Cebu and selected attractions" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=123.45%2C9.40%2C124.10%2C11.35&layer=mapnik&marker=10.3157%2C123.8854"></iframe>
                 </div>
             </div>
+
             <p class="small-note">Map data is provided by OpenStreetMap. An internet connection is required.</p>
         </section>
 
@@ -426,11 +468,13 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
             </div>
 
             <div class="food-grid">
-                <!-- 1. LECHON -->
+
+
                 <article class="food-card">
                     <a href="/Cebu/pages/cebu-lechon.php" class="card-link" aria-label="Read more about Cebu Lechon">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/letchon.webp');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">MUST-TRY DISH</span>
                         <h3><a href="/Cebu/pages/cebu-lechon.php">Cebu Lechon</a></h3>
@@ -439,11 +483,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 2. DRIED MANGOES -->
+           
                 <article class="food-card">
                     <a href="/Cebu/pages/dried-mangoes.php" class="card-link" aria-label="Read more about Dried Mangoes">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/mango.webp');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">POPULAR PASALUBONG</span>
                         <h3><a href="/Cebu/pages/dried-mangoes.php">Dried Mangoes</a></h3>
@@ -452,11 +497,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 3. SUGBO MERCADO -->
+            
                 <article class="food-card">
                     <a href="/Cebu/pages/sugbo-mercado.php" class="card-link" aria-label="Read more about Sugbo Mercado">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/mercado.jpg');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">FOOD & NIGHTLIFE</span>
                         <h3><a href="/Cebu/pages/sugbo-mercado.php">Sugbo Mercado</a></h3>
@@ -465,11 +511,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 4. PUSO -->
+         
                 <article class="food-card">
                     <a href="/Cebu/pages/puso.php" class="card-link" aria-label="Read more about Puso">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/puso.jpg');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">TRADITIONAL STAPLE</span>
                         <h3><a href="/Cebu/pages/puso.php">Puso</a></h3>
@@ -478,11 +525,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 5. NGOHIONG -->
+           
                 <article class="food-card">
                     <a href="/Cebu/pages/ngohiong.php" class="card-link" aria-label="Read more about Ngohiong">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/ngohiong.jpg');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">STREET FOOD</span>
                         <h3><a href="/Cebu/pages/ngohiong.php">Ngohiong</a></h3>
@@ -491,11 +539,12 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                     </div>
                 </article>
 
-                <!-- 6. BIBINGKA & SIKWATE -->
+ 
                 <article class="food-card">
                     <a href="/Cebu/pages/bibingka-sikwate.php" class="card-link" aria-label="Read more about Bibingka and Sikwate">
                         <div class="food-image" style="background-image: url('/Cebu/assets/images/destination/bibingka.jpg');"></div>
                     </a>
+
                     <div class="food-content">
                         <span class="card-kicker">LOCAL BREAKFAST</span>
                         <h3><a href="/Cebu/pages/bibingka-sikwate.php">Bibingka & Sikwate</a></h3>
@@ -503,9 +552,10 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                         <button class="map-trigger" data-lat="10.3157" data-lng="123.8854" data-title="Bibingka & Sikwate" data-desc="Traditional Cebuano breakfast pairing.">View food spots ↗</button>
                     </div>
                 </article>
+
             </div>
 
-            <!-- EXPLORE FOOD GUIDE BUTTON -->
+  
             <div class="browse-destinations-wrap" style="margin-top: 40px; text-align: center;">
                 <a class="button button-dark browse-destinations" href="/Cebu/pages/food.php" style="display: inline-flex; width: auto; padding: 14px 30px;">
                     Explore Food Guide <span aria-hidden="true">↗</span>
@@ -513,7 +563,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
             </div>
         </section>
 
-        <!-- TRANSPORTATION -->
+
         <section class="section transport-section" id="transport">
             <div class="section-heading">
                 <div>
@@ -524,30 +574,35 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
             </div>
 
             <div class="transport-grid">
-                <!-- 1. JEEPNEYS & BUSES -->
+
+
                 <a href="/Cebu/pages/transport.php#jeepneys" class="transport-card" aria-label="Read more about Jeepneys and Buses">
                     <span class="transport-icon">▤</span>
                     <h3>Jeepneys & Buses</h3>
                     <p>Common options for city travel and many provincial routes. Check current routes and fares locally.</p>
                 </a>
-                <!-- 2. TAXIS & RIDE-HAILING -->
+
+          
                 <a href="/Cebu/pages/transport.php#taxis" class="transport-card" aria-label="Read more about Taxis and Ride-Hailing">
                     <span class="transport-icon">↗</span>
                     <h3>Taxis & Ride-Hailing</h3>
                     <p>Convenient for point-to-point travel, especially around urban areas.</p>
                 </a>
-                <!-- 3. FERRIES & FASTCRAFTS -->
+
+              
                 <a href="/Cebu/pages/transport.php#buses" class="transport-card" aria-label="Read more about Ferries and Fastcrafts">
                     <span class="transport-icon">≈</span>
                     <h3>Ferries & Fastcrafts</h3>
                     <p>Useful for connecting Cebu with nearby islands. Confirm schedules with operators.</p>
                 </a>
-                <!-- 4. LOCAL MOTORCYCLES -->
+
+               
                 <a href="/Cebu/pages/transport.php#provincial" class="transport-card" aria-label="Read more about Local Motorcycles">
                     <span class="transport-icon">⌁</span>
                     <h3>Local Motorcycles</h3>
                     <p>Available in some areas for short local trips. Agree on fare and prioritize safety.</p>
                 </a>
+
             </div>
 
             <!-- READ FULL TRANSPORT GUIDE BUTTON -->
@@ -572,6 +627,7 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                         <label for="travelerName">Name (optional)</label>
                         <input id="travelerName" type="text" placeholder="Your name">
                     </div>
+
                     <div class="form-field">
                         <label for="travelStyle">Travel style</label>
                         <select id="travelStyle">
@@ -581,14 +637,17 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                             <option value="relax">Relaxation & coastal views</option>
                         </select>
                     </div>
+
                     <div class="form-field">
                         <label for="startDate">Start date (optional)</label>
                         <input id="startDate" type="date">
                     </div>
+
                     <div class="form-field">
                         <label for="tripDays">Number of days</label>
                         <input id="tripDays" type="number" min="1" max="14" value="3" required>
                     </div>
+
                     <button class="button button-gold form-submit" type="submit">Create trip suggestion →</button>
                 </form>
 
@@ -614,12 +673,14 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                 </a>
                 <p>Your local guide to attractions, food, and travel information across Cebu.</p>
             </div>
+
             <div>
                 <h4>Explore</h4>
                 <a href="/Cebu/index.php#explore">Destinations</a>
                 <a href="/Cebu/index.php#map-section">Map & Routes</a>
                 <a href="/Cebu/index.php#food">Local Food</a>
             </div>
+
             <div>
                 <h4>Plan</h4>
                 <a href="/Cebu/pages/transport.php">Transport Tips</a>
@@ -627,25 +688,32 @@ $pageDescription = 'Discover Cebu attractions, local food, transport tips and tr
                 <a href="/Cebu/index.php#about">About the Project</a>
             </div>
         </div>
+
         <div class="footer-bottom">
             <span>© <span id="currentYear"></span> Smart Tourist Navigator — Cebu</span>
             <span>Made for curious travelers.</span>
         </div>
     </footer>
 
-    <!-- NOTIFICATION MESSAGE -->
+
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-    <!-- Script for Mobile Menu & Year (In case script.js fails to load) -->
+   
     <script>
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
         const menuToggle = document.getElementById('menuToggle');
         const navLinks = document.getElementById('navLinks');
+
         if (menuToggle && navLinks) {
             menuToggle.addEventListener('click', function() {
                 navLinks.classList.toggle('open');
             });
         }
     </script>
+
+
+    <?php require_once __DIR__ . '/ai/chatbot.php'; ?>
+
 </body>
 </html>
